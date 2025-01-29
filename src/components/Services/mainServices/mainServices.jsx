@@ -6,9 +6,9 @@ function MainServices() {
     "./services/2.png",
     "./services/3.png",
     "./services/4.png",
-    // "./services/5.png",
+    "./services/5.png",
     "./services/6.png",
-    "./services/7.png",
+    // "./services/7.png",
   ];
   return (
     <>
@@ -26,7 +26,6 @@ function MainServices() {
           ))}
         </div>
       </div>
-      
     </>
   );
 }
