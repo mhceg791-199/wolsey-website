@@ -13,31 +13,8 @@ const projectsData = [
     industry: "Administrative",
     status: "Completed",
   },
-  {
-    name: "Sherwood Multifamily",
-    slug: slugify("Sherwood Multifamily"),
-    imgs: [
-      "/projectss/Sherwood Multifamily/1.webp",
-      "/projectss/Sherwood Multifamily/2.webp",
-      "/projectss/Sherwood Multifamily/3.webp",
-      "/projectss/Sherwood Multifamily/4.webp",
-      "/projectss/Sherwood Multifamily/5.webp",
-      "/projectss/Sherwood Multifamily/6.webp",
-    ],
-    industry: "Residential - Multi Family",
-    status: "Completed",
-  },
-  {
-    name: "Pines of Normanview",
-    slug: slugify("Pines of Normanview"),
-    imgs: [
-      "/projectss/Pines of Normanview/1.webp",
-      "/projectss/Pines of Normanview/2.webp",
-      "/projectss/Pines of Normanview/3.webp",
-    ],
-    industry: "Residential",
-    status: "Completed",
-  },
+
+
   {
     name: "Skyview Ranch",
     slug: slugify("Skyview Ranch"),
@@ -208,33 +185,8 @@ const projectsData = [
     industry: "Residential - Single Family",
     status: "Completed",
   },
-  {
-    name: "River Heights Cochrane",
-    slug: slugify("River Heights Cochrane"),
-    imgs: [
-      "/projectss/River Heights Cochrane/1.webp",
-      "/projectss/River Heights Cochrane/2.webp",
-      "/projectss/River Heights Cochrane/3.webp",
-      "/projectss/River Heights Cochrane/4.webp",
-      "/projectss/River Heights Cochrane/5.webp",
-      "/projectss/River Heights Cochrane/6.webp",
-    ],
-    industry: "Residential - Single Family",
-    status: "Completed",
-  },
-  {
-    name: "Green Wood - Greenbriar",
-    slug: slugify("Green Wood - Greenbriar"),
-    imgs: [
-      "/projectss/Green Wood - Greenbriar/1.webp",
-      "/projectss/Green Wood - Greenbriar/2.webp",
-      "/projectss/Green Wood - Greenbriar/3.webp",
-      "/projectss/Green Wood - Greenbriar/4.webp",
-      "/projectss/Green Wood - Greenbriar/5.webp",
-    ],
-    industry: "Residential - Multi Family",
-    status: "Completed",
-  },
+
+
   {
     name: "Chinook Gate",
     slug: slugify("Chinook Gate"),
@@ -242,16 +194,7 @@ const projectsData = [
     industry: "Specialty Fabrications",
     status: "Completed",
   },
-  {
-    name: "Regional Psychiatric Centre (RPC)",
-    slug: slugify("Regional Psychiatric Centre (RPC)"),
-    imgs: [
-      "/projectss/Regional Psychiatric Centre (RPC)/1.webp",
-      "/projectss/Regional Psychiatric Centre (RPC)/2.webp",
-    ],
-    industry: "Healthcare Facility",
-    status: "Completed",
-  },
+
   {
     name: "Aqsarniit Hotel and Conference Centre",
     slug: slugify("Aqsarniit Hotel and Conference Centre"),
@@ -265,19 +208,7 @@ const projectsData = [
     industry: "Residential - Modular Str.",
     status: "Completed",
   },
-  {
-    name: "Warman Home Centre Communiplex",
-    slug: slugify("Warman Home Centre Communiplex"),
-    imgs: [
-      "/projectss/Warman Home Centre Communiplex/1.webp",
-      "/projectss/Warman Home Centre Communiplex/2.webp",
-      "/projectss/Warman Home Centre Communiplex/3.webp",
-      "/projectss/Warman Home Centre Communiplex/4.webp",
-      "/projectss/Warman Home Centre Communiplex/5.webp",
-    ],
-    industry: "Commercial",
-    status: "Completed",
-  },
+
   {
     name: "Centex Gas Station",
     slug: slugify("Centex Gas Station"),
@@ -307,22 +238,7 @@ const projectsData = [
     industry: "Commercial",
     status: "Completed",
   },
-  {
-    name: "Herns Mill Historic Covered Bridge",
-    slug: slugify("Herns Mill Historic Covered Bridge"),
-    imgs: [
-      "/projectss/Herns Mill Historic Covered Bridge/1.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/2.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/3.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/4.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/5.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/6.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/7.webp",
-      "/projectss/Herns Mill Historic Covered Bridge/8.webp",
-    ],
-    industry: "Specialty Fabrications",
-    status: "Completed",
-  },
+
   {
     name: "Mission 19",
     slug: slugify("Mission 19"),

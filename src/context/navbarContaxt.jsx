@@ -32,10 +32,10 @@ function NavbarContaxtProvider({ children }) {
           name: "Founder’s Journey",
           path: { page: "/founder", section: "mission" },
         },
-        {
-          name: "Certifications and Awards ",
-          path: { page: "/certifications-and-awards", section: "vision" },
-        },
+        // {
+        //   name: "Certifications and Awards ",
+        //   path: { page: "/certifications-and-awards", section: "vision" },
+        // },
       ],
       path: { page: "/about", section: "about" },
     },
