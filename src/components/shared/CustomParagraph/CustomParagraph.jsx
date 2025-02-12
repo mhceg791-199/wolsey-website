@@ -8,7 +8,7 @@ function CustomParagraph({ data }) {
 
   return (
     <>
-      <div className={`${bgColor && bgColor} text-justify`}>
+      <div className={`${bgColor && bgColor} text-justify  p-5`}>
         {header && (
           <h2
             className={`text-mainBrown font-berlin custom-text-${header.fontSize} mb-3`}

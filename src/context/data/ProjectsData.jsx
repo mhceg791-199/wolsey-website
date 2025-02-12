@@ -14,20 +14,6 @@ const projectsData = [
     status: "Completed",
   },
 
-
-  {
-    name: "Skyview Ranch",
-    slug: slugify("Skyview Ranch"),
-    imgs: [
-      "/projectss/Skyview Ranch/1.webp",
-      "/projectss/Skyview Ranch/2.webp",
-      "/projectss/Skyview Ranch/3.webp",
-      "/projectss/Skyview Ranch/5.webp",
-      "/projectss/Skyview Ranch/6.webp",
-    ],
-    industry: "Residential - Mixed Use",
-    status: "Completed",
-  },
   {
     name: "Latitude 51 Airdrie",
     slug: slugify("Latitude 51 Airdrie"),
@@ -45,13 +31,7 @@ const projectsData = [
     industry: "Residential",
     status: "Completed",
   },
-  {
-    name: "Unison",
-    slug: slugify("Unison"),
-    imgs: ["/projectss/Unison/1.webp", "/projectss/Unison/2.webp"],
-    industry: "Administrative",
-    status: "Completed",
-  },
+
   {
     name: "William Off Whyte",
     slug: slugify("William Off Whyte"),
@@ -137,18 +117,7 @@ const projectsData = [
     industry: "Residential - Multifamily",
     status: "Completed",
   },
-  {
-    name: "Truman Memorial (Archer)",
-    slug: slugify("Truman Memorial (Archer)"),
-    imgs: [
-      "/projectss/Truman Memorial (Archer)/1.webp",
-      "/projectss/Truman Memorial (Archer)/2.webp",
-      "/projectss/Truman Memorial (Archer)/3.webp",
-      "/projectss/Truman Memorial (Archer)/4.webp",
-    ],
-    industry: "Community Center and Historical Site",
-    status: "Completed",
-  },
+
   {
     name: "Sagecourt Strathmore",
     slug: slugify("Sagecourt Strathmore"),
