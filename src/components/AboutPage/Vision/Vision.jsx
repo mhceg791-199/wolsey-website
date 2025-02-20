@@ -10,13 +10,8 @@ function Vision() {
     firstLine: {
       part1: {
         isBold: true,
-        text: "To be a vanguard in structural engineering",
+        text: "",
         fontSize: "lg",
-      },
-      part2: {
-        isBold: false,
-        fontSize: "base",
-        text: "shaping the future",
       },
     },
     normalText: [

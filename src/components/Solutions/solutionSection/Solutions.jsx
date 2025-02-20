@@ -14,8 +14,7 @@ function Solutions() {
         </p>
         <p>
           provides innovative structural engineering solutions in reinforced
-          concrete, steel, and timber.The market has reached $112 billion in
-          2024, with a CAGR 5.1%. Wolsey’s approach stands out for its precision
+          concrete, steel, and timber. Wolsey’s approach stands out for its precision
           and cutting-edge design. Each project integrates meticulous sizing,
           static and dynamic analyses, and detailed layouts for flawless
           integration. Utilising advanced 3D modelling in BIM and REVIT up to

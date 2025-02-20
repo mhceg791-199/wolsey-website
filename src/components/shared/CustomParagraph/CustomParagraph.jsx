@@ -4,7 +4,9 @@ import LearnMore from "../LearnMore";
 function CustomParagraph({ data }) {
   const { header, learnMore, normalText, firstLine, handelWidth, bgColor } =
     data;
-  const { part1, part2 } = firstLine;
+  if (firstLine) {
+    var { part1, part2 } = firstLine;
+  }
 
   return (
     <>
@@ -18,11 +20,11 @@ function CustomParagraph({ data }) {
         )}
         <p>
           <span
-            className={`custom-text-${part1.fontSize} ${
-              part1.color == "text-mainBrown" ? "text-mainBrown" : ""
-            }  ${part1.isBold && "font-semibold"} pe-1`}
+            className={`custom-text-${part1?.fontSize} ${
+              part1?.color == "text-mainBrown" ? "text-mainBrown" : ""
+            }  ${part1?.isBold && "font-semibold"} pe-1`}
           >
-            {part1.text}
+            {part1?.text}
           </span>
           {part2 && (
             <span
