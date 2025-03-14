@@ -87,18 +87,18 @@ function CareerForm() {
               }),
               multiValue: (baseStyles) => ({
                 ...baseStyles,
-                backgroundColor: "#864721", 
+                backgroundColor: "#864721",
               }),
               multiValueLabel: (baseStyles) => ({
                 ...baseStyles,
-                color: "white", 
+                color: "white",
               }),
               multiValueRemove: (baseStyles) => ({
                 ...baseStyles,
-                color: "white", 
+                color: "white",
                 cursor: "pointer",
                 ":hover": {
-                  backgroundColor: "transparent", 
+                  backgroundColor: "transparent",
                 },
               }),
             }}
@@ -314,7 +314,7 @@ function CareerForm() {
             onChange={formik.handleChange}
             value={formik.values.message}
             className="bg-gray text-gray-900 text-sm block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white focus:border-mainGold focus:ring-mainGold focus:outline-none placeholder-gray-700"
-            placeholder="Why would you apply in the selected position?"
+            placeholder="Message"
             rows={6}
             required
           />
