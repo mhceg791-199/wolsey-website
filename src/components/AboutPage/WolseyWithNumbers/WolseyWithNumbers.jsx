@@ -33,7 +33,7 @@ function WolseyInNumbers() {
     },
     {
       name: "Projects",
-      number: useCountUp(1000, inView, 70000),
+      number: useCountUp(3000, inView, 70000),
       icon: "+",
     },
   ];

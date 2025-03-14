@@ -6,7 +6,7 @@ function values() {
     {
       title: "Engineering Excellence",
       description:
-        "Delivering innovative, precise, and high-performance structural solutions",
+        "Delivering innovative, precise, and high-performance structural solutions.",
     },
     {
       title: "Client-Centric Focus",
@@ -30,7 +30,7 @@ function values() {
     {
       title: "Commitment to Quality",
       description:
-        "Crafting durable, efficient, and visually refined structures",
+        "Crafting durable, efficient, and visually refined structures.",
     },
     {
       title: "Visionary Innovation",

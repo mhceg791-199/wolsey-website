@@ -17,10 +17,10 @@ function Solutions() {
           concrete, steel, and timber. Wolsey’s approach stands out for its precision
           and cutting-edge design. Each project integrates meticulous sizing,
           static and dynamic analyses, and detailed layouts for flawless
-          integration. Utilising advanced 3D modelling in BIM and REVIT up to
+          integration. Utilizing advanced 3D modelling in BIM and REVIT up to
           LOD 300 and 400, we ensure our drafts are fabrication-ready, promoting
           an error-free construction process. At Wolsey, client satisfaction is
-          paramount. We've partnered with over 36 clients, with more than 40%
+          paramount. We've partnered with over 100 clients, with more than 95%
           returning, to bring their visions to life with exceptional precision.
         </p>
       </div>

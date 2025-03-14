@@ -16,7 +16,7 @@ function CertificationPoster() {
           </p>
           <p className="mt-5 lg:w-1/2 lg:pe-6 text-justify">
             backed by over 20 years of expertise and a team of 20+ skilled
-            design engineers. With a portfolio spanning 1000+ projects across 5
+            design engineers. With a portfolio spanning 3000+ projects across 5
             continents, we bring sustainable, award-winning designs to life
             using cutting-edge technology and an unwavering commitment to
             quality, resilience, and innovation. Our dedication to client

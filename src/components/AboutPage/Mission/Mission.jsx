@@ -9,7 +9,7 @@ function Mission() {
     img: "/about/mission.webp",
 
     normalText: [
-      "Wolsey Structural Engineering is committed to delivering world-class Wolsey Structural Engineering is committed to delivering world-class structural designs providing  innovative, sustainable, and precise designs. Our client-focused approach ensures cost-effective solutions that exceed expectations while prioritizing safety, quality, and environmental responsibility.",
+      "Wolsey Structural Engineering is committed to delivering world-class structural designs providing  innovative, sustainable, and precise designs. Our client-focused approach ensures cost-effective solutions that exceed expectations while prioritizing safety, quality, and environmental responsibility.",
     ],
   };
   return (
