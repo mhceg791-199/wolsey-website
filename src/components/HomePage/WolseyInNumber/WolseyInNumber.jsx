@@ -18,7 +18,7 @@ function WolseyInNumber() {
     },
     {
       name: "Clients",
-      number: useCountUp(100, inView,10000),
+      number: useCountUp(150, inView,10000),
       icon: "+",
     },
     {
