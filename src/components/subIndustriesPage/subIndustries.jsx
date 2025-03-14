@@ -16,7 +16,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Wolsey delivers robust structural engineering solutions for multifamily residential buildings, ensuring durability, stability, and compliance with industry standards while supporting sustainable community growth.",
+        "Wolsey designs and engineers durable, high-quality structures for multifamily residential buildings. Our solutions prioritize safety, efficiency, and compliance with industry standards, ensuring long-term stability while fostering sustainable community growth.",
       ],
       link: "/projects",
     },
@@ -33,7 +33,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Our team specializes in engineering structurally efficient retail spaces, prioritizing stability, durability, and adaptability. By integrating advanced structural systems and optimizing load-bearing designs, we create commercial environments that support functionality, enhance usability, and meet the unique demands of retail operations.",
+        "We create strong, adaptable structural designs for retail spaces, ensuring durability, functionality, and efficiency. Our expertise supports the unique demands of retail operations, optimizing layouts for usability, customer flow, and long-term performance.",
       ],
       link: "/projects",
     },
@@ -50,7 +50,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Wolsey's structural engineering expertise for office warehouse projects focuses on creating durable, efficient frameworks designed to withstand operational demands. Our solutions emphasize load-bearing capacity, optimal material use, and structural integrity, ensuring the facilities are adaptable, scalable, and built to support diverse business requirements.",
+        "Our office warehouse solutions focus on structural integrity, load-bearing efficiency, and adaptability. We engineer durable, high-performance facilities that accommodate diverse business needs while maximizing space utilization and operational efficiency.",
       ],
       link: "/projects",
     },
@@ -67,7 +67,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "We engineer dealership structures with a focus on robust and efficient designs that support high-traffic use while meeting the unique demands of automotive showrooms. By prioritizing structural integrity and functionality, we create spaces that optimize the display of inventory and enhance client engagement, all while upholding the highest standards of durability and performance.",
+        "Wolsey specializes in designing dealership structures that enhance showroom functionality and customer experience. Our engineering solutions ensure durability, stability, and optimal space planning for vehicle display, storage, and high-traffic use.",
       ],
       link: "/projects",
     },
@@ -84,7 +84,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "It  involves the custom design and construction of critical structural components like beams, supports, and frames. This process ensures each element meets precise specifications, integrates seamlessly with the overall design, and complies with safety and regulatory standards, providing strength, durability, and reliability for complex projects.",
+        "We provide custom structural engineering solutions for unique fabrication needs, including specialized beams, supports, and frames. Our precision-driven approach ensures seamless integration, compliance with industry standards, and long-term structural reliability.",
       ],
       link: "/projects",
     },
@@ -101,7 +101,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Our municipal institution is engineered for durability and safety, focusing on robust structural integrity. We apply advanced engineering methods to ensure long-lasting, resilient spaces that meet the needs of the community, using sustainable materials and innovative design solutions.",
+        "Our municipal engineering expertise focuses on designing and reinforcing public buildings that serve communities for generations. We prioritize safety, sustainability, and structural resilience to create lasting spaces for civic engagement and essential services.",
       ],
       link: "/projects",
     },
@@ -118,7 +118,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Landscape elements involve the engineering of functional outdoor structures such as retaining walls, walkways, terraces, and stairs. Our approach ensures these features are structurally sound, stable, and sustainable, while complementing the natural environment.",
+        "Wolsey engineers outdoor structural elements such as retaining walls, terraces, walkways, and stairways. Our solutions enhance both aesthetics and functionality while ensuring stability, longevity, and harmony with the natural environment.",
       ],
       link: "/projects",
     },
@@ -135,7 +135,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Modular structures are prefabricated building components engineered for strength, durability, and efficiency. Designed with precision, these structures offer rapid assembly while maintaining high standards of load-bearing capacity and resilience to environmental conditions. Ideal for various applications, modular systems provide flexible, reliable solutions tailored to specific engineering requirements.",
+        "Our modular engineering solutions provide prefabricated, high-strength building components designed for quick assembly and long-term durability. These flexible structures adapt to various applications while maintaining exceptional load-bearing capacity and resilience.",
       ],
       link: "/projects",
     },
@@ -152,7 +152,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Our structural engineering services for single-family homes focus on safety, durability, and precision. We design and analyze load-bearing systems, ensuring compliance with building codes and optimizing stability. From foundations to framing, our tailored solutions deliver reliable, long-lasting structures.",
+        "We engineer safe, durable, and efficient structural solutions for single-family homes. From foundations to framing, our expertise ensures long-lasting stability, compliance with building codes, and a secure living environment.",
       ],
       link: "/projects",
     },
