@@ -98,10 +98,7 @@ const projectsData = [
   {
     name: "Haysboro Community Centre",
     slug: slugify("Haysboro Community Centre"),
-    imgs: [
-      "/projectss/Haysboro Community Centre/1.webp",
-      "/projectss/Haysboro Community Centre/2.webp",
-    ],
+    imgs: ["/projectss/Haysboro Community Centre/1.webp"],
     industry: "Community Centre",
     status: "Completed",
   },
@@ -114,7 +111,7 @@ const projectsData = [
       "/projectss/Switch Bloc/3.webp",
       "/projectss/Switch Bloc/4.webp",
     ],
-    industry: "Residential - Multifamily",
+    industry: "Residential - Multi Family",
     status: "Completed",
   },
 
@@ -155,11 +152,10 @@ const projectsData = [
     status: "Completed",
   },
 
-
   {
     name: "Chinook Gate",
     slug: slugify("Chinook Gate"),
-    imgs: ["/projectss/Chinook Gate/1.webp", "/projectss/Chinook Gate/2.webp"],
+    imgs: ["/projectss/Chinook Gate/2.webp"],
     industry: "Specialty Fabrications",
     status: "Completed",
   },
@@ -178,19 +174,6 @@ const projectsData = [
     status: "Completed",
   },
 
-  {
-    name: "Centex Gas Station",
-    slug: slugify("Centex Gas Station"),
-    imgs: [
-      "/projectss/Centex Gas Station/1.webp",
-      "/projectss/Centex Gas Station/2.webp",
-      "/projectss/Centex Gas Station/3.webp",
-      "/projectss/Centex Gas Station/4.webp",
-      "/projectss/Centex Gas Station/5.webp",
-    ],
-    industry: "Commercial",
-    status: "Completed",
-  },
   {
     name: "CKE Community Center",
     slug: slugify("CKE Community Center"),

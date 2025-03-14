@@ -61,7 +61,7 @@ export function Filteration() {
             value="Completed"
           />
           <Checkbox
-            label="Pending"
+            label="On Going"
             onChange={(e) => {
               const value = "Pending";
               setTerm({
@@ -75,7 +75,6 @@ export function Filteration() {
             }}
           />{" "}
         </div>
-
       </div>{" "}
     </>
   );

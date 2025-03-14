@@ -21,8 +21,7 @@ function BriefCareer() {
 
         <div className="lg:col-span-4 col-span-5 my-2 ps-3">
           <p>
-            Whether you’re a seasoned engineer, strategic business leader, or
-            finance expert, Wolsey offers a wide range of fulfilling career
+            Whether you’re a seasoned engineer, strategic business leader, Wolsey offers a wide range of fulfilling career
             paths designed for those dedicated to impactful work in a dynamic
             environment. As our portfolio of expertise grows, each team and
             division contributes unique industry insights and formidable

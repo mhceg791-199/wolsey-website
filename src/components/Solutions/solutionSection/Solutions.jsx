@@ -9,7 +9,7 @@ function Solutions() {
             OUR SOLUTIONS
           </span>
           <span className="custom-text-lg font-semibold">
-            With over 17 years of expertise, Wolsey Structural Engineering Ltd.
+            With over 50 years of expertise, Wolsey Structural Engineering Ltd.
           </span>
         </p>
         <p>

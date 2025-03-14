@@ -9,7 +9,7 @@ function SubIndustryCard({ data }) {
     <>
       <div className="grid md:grid-cols-6  grid-cols-1">
         {imgFirst ? (
-        <>
+          <>
             <div className=" col-span-2">
               <img className="w-full  object-cover h-full " src={img} alt="" />
             </div>
@@ -18,7 +18,7 @@ function SubIndustryCard({ data }) {
             >
               <CustomParagraph data={data} />{" "}
               <Link to={link} className="text-mainBrown font-berlin">
-                Read More
+                Photo Gallary
               </Link>{" "}
             </div>
           </>
@@ -29,7 +29,7 @@ function SubIndustryCard({ data }) {
             >
               <CustomParagraph data={data} />
               <Link to={link} className="text-mainBrown font-berlin">
-                Read More
+                Photo Gallary
               </Link>
             </div>
             <div className=" col-span-2">

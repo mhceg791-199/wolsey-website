@@ -220,7 +220,7 @@ function CareerForm() {
         </div>
 
         {/* Industry dropdown */}
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <select
             id="position"
             name="position"
@@ -304,7 +304,7 @@ function CareerForm() {
             <option value="Runner" label="Runner" />
             <option value="Office Boy" label="Office Boy" />
           </select>
-        </div>
+        </div> */}
 
         {/* Message input */}
         <div className="mb-3">
