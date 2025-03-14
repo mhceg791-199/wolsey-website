@@ -10,10 +10,10 @@ function ContactUsDetails() {
       icon: "fa-solid fa-phone",
       text: "Tel: +1 403-452-4711",
     },
-    // {
-    //   icon: "fa-solid fa-earth-americas",
-    //   text: "info@mosaicholding.com",
-    // },
+    {
+      icon: "fa-solid fa-earth-americas",
+      text: "info@wolsey.ca",
+    },
     {
       icon: "fa-solid fa-location-dot",
       text: "Calgary office #200, 1302 4th Street SW",
@@ -36,6 +36,15 @@ function ContactUsDetails() {
             ></i>
             <p className={` sm:text-small md:text-2xl `}>
               Tel: +1 403-452-4711
+            </p>
+          </div>
+          <div className="flex items-center my-3 mt-10">
+            <i
+              class={` fa-solid fa-envelope text-mainBrown me-2 custom-text-lg`}
+            ></i>
+            {/* add email  */}
+            <p className={` sm:text-small md:text-2xl `}>
+              Email: info@wolsey.ca
             </p>
           </div>
           <div className="flex items-center my-3 mt-10">
