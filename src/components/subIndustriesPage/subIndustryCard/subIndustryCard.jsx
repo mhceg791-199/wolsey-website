@@ -18,7 +18,7 @@ function SubIndustryCard({ data }) {
             >
               <CustomParagraph data={data} />{" "}
               <Link to={link} className="text-mainBrown font-berlin">
-                Photo Gallary
+                Photo Gallery
               </Link>{" "}
             </div>
           </>
@@ -29,7 +29,7 @@ function SubIndustryCard({ data }) {
             >
               <CustomParagraph data={data} />
               <Link to={link} className="text-mainBrown font-berlin">
-                Photo Gallary
+                Photo Gallery
               </Link>
             </div>
             <div className=" col-span-2">
