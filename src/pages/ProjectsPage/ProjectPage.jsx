@@ -35,7 +35,7 @@ function ProjectPage() {
         <div className="flex justify-center">
           <div className="space-x-8"></div>
         </div>
-        <div className="grid gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-5">
+        <div className="grid gap-5 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-5">
           {filteredProjects.map((project, index) => {
             return (
               <React.Fragment key={index}>
