@@ -22,7 +22,7 @@ export function Filteration() {
   return (
     <>
       <div className="grid gap-2 grid-cols-6 my-5 m-auto md:w-1/2">
-        <div className="lg:col-span-6 sm:col-span-3 col-span-6">
+        {/* <div className="lg:col-span-6 sm:col-span-3 col-span-6">
           <div className=" m-auto ">
             <Input
               className=" !border-gray-700  !border !rounded-none bg-white text-gray-900   placeholder:text-gray-700 placeholder:opacity-80  focus:!border-mainBrown focus:!shadow-md focus: focus:!shadow-mainBrown "
@@ -40,11 +40,11 @@ export function Filteration() {
               label="Project Name"
             />
           </div>
-        </div>
-        <div className="lg:col-span-3 sm:col-span-6 col-span-6">
+        </div> */}
+        <div className="lg:col-span-6 sm:col-span-6 col-span-6">
           <SelectIndustry />
         </div>
-        <div className="lg:col-span-3 sm:col-span-6 col-span-6 flex justify-center ">
+        <div className="lg:col-span-6 sm:col-span-6 col-span-6 flex justify-center ">
           <Checkbox
             onChange={(e) => {
               const value = "Completed";
