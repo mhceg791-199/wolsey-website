@@ -32,8 +32,7 @@ function CareerForm() {
       .email("Invalid email address")
       .required("Email is required"),
     message: Yup.string().required("Message is required"),
-    position: Yup.string().required("position is required"),
-    cv: Yup.mixed()
+      cv: Yup.mixed()
       .required("A CV is required")
       .test(
         "fileSize",
@@ -52,7 +51,6 @@ function CareerForm() {
     initialValues: {
       firstName: "",
       lastName: "",
-      position: "",
       phone: "",
       email: "",
       message: "",
@@ -62,7 +60,7 @@ function CareerForm() {
     onSubmit: async (values) => {
       setIsLoading(true);
       const formdata = new FormData();
-      const { firstName, lastName, position, phone, email, message, cv } =
+      const { firstName, lastName, phone, email, message, cv } =
         values;
 
       function SelectIndustry() {
@@ -131,14 +129,14 @@ function CareerForm() {
 
       formdata.append("firstName", firstName);
       formdata.append("lastName", lastName);
-      formdata.append("position", position);
+      // formdata.append("position", position);
       formdata.append("phone", phone);
       formdata.append("email", email);
       formdata.append("message", message);
       formdata.append("cv", cv);
 
       const { data } = await axios.post(
-        "https://mhc-backend.vercel.app/v1/api/candidate",
+        "http://localhost:3001/v1/api/candidate",
         formdata
       );
       toast.success("Application Sent Successfully!", {
