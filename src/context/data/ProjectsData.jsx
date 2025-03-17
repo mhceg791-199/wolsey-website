@@ -21,14 +21,27 @@ const projectsData = [
       "/projectss/Latitude 51 Airdrie/1.webp",
       "/projectss/Latitude 51 Airdrie/2.webp",
     ],
-    industry: "Residential",
+    industry: "Residential - Multi Family",
+    status: "Completed",
+  },
+  {
+    name: "Mount Pleasant 8",
+    slug: slugify("Mount Pleasant 8"),
+    imgs: [
+      "/projectss/Mount Pleasant 8/1.webp",
+      "/projectss/Mount Pleasant 8/2.webp",
+      "/projectss/Mount Pleasant 8/3.webp",
+      "/projectss/Mount Pleasant 8/4.webp",
+      "/projectss/Mount Pleasant 8/5.webp",
+    ],
+    industry: "Residential - Single Family",
     status: "Completed",
   },
   {
     name: "The Mark 101",
     slug: slugify("The Mark 101"),
     imgs: ["/projectss/The Mark 101/1.webp", "/projectss/The Mark 101/2.webp"],
-    industry: "Residential",
+    industry: "Residential - Multi Family",
     status: "Completed",
   },
 
@@ -41,7 +54,7 @@ const projectsData = [
       "/projectss/William Off Whyte/3.webp",
       "/projectss/William Off Whyte/4.webp",
     ],
-    industry: "Residential",
+    industry: "Residential - Multi Family",
     status: "Completed",
   },
   {
@@ -52,7 +65,7 @@ const projectsData = [
       "/projectss/Country Hills Toyota Addition/2.webp",
       "/projectss/Country Hills Toyota Addition/3.webp",
     ],
-    industry: "Dealership",
+    industry: "Commercial",
     status: "Completed",
   },
   {
@@ -67,19 +80,7 @@ const projectsData = [
     industry: "Residential - Multi Family",
     status: "Completed",
   },
-  {
-    name: "Mount Pleasant 8",
-    slug: slugify("Mount Pleasant 8"),
-    imgs: [
-      "/projectss/Mount Pleasant 8/1.webp",
-      "/projectss/Mount Pleasant 8/2.webp",
-      "/projectss/Mount Pleasant 8/3.webp",
-      "/projectss/Mount Pleasant 8/4.webp",
-      "/projectss/Mount Pleasant 8/5.webp",
-    ],
-    industry: "multi-residential project",
-    status: "Completed",
-  },
+
   {
     name: "Cornerstone Townhomes",
     slug: slugify("Cornerstone Townhomes"),
@@ -92,14 +93,14 @@ const projectsData = [
       "/projectss/Cornerstone Townhomes/6.webp",
       "/projectss/Cornerstone Townhomes/7.webp",
     ],
-    industry: "Single Residential",
+    industry: "Residential - Single Family",
     status: "Completed",
   },
   {
     name: "Haysboro Community Centre",
     slug: slugify("Haysboro Community Centre"),
     imgs: ["/projectss/Haysboro Community Centre/1.webp"],
-    industry: "Community Centre",
+    industry: "Public and Municipality buildings",
     status: "Completed",
   },
   {
@@ -136,7 +137,7 @@ const projectsData = [
       "/projectss/Centaur Subaru/5.webp",
       "/projectss/Centaur Subaru/6.webp",
     ],
-    industry: "Dealership",
+    industry: "Commercial",
     status: "Completed",
   },
   {
@@ -170,7 +171,7 @@ const projectsData = [
       "/projectss/Aqsarniit Hotel and Conference Centre/4.webp",
       "/projectss/Aqsarniit Hotel and Conference Centre/5.webp",
     ],
-    industry: "Residential - Modular Str.",
+    industry: "Commercial",
     status: "Completed",
   },
 
@@ -187,7 +188,7 @@ const projectsData = [
       "/projectss/CKE Community Center/7.webp",
       "/projectss/CKE Community Center/8.webp",
     ],
-    industry: "Commercial",
+    industry: "Public and Municipality buildings",
     status: "Completed",
   },
 
@@ -200,7 +201,7 @@ const projectsData = [
       "/projectss/Mission 19/3.webp",
       "/projectss/Mission 19/4.webp",
     ],
-    industry: "Residential",
+    industry: "Residential - Multi Family",
     status: "Completed",
   },
   {
@@ -211,7 +212,7 @@ const projectsData = [
       "/projectss/Tidal Beacon/2.webp",
       "/projectss/Tidal Beacon/3.webp",
     ],
-    industry: "Residential",
+    industry: "Specialty Fabrications",
     status: "Completed",
   },
   {
@@ -237,7 +238,7 @@ const projectsData = [
       "/projectss/BMO Centre - Pavilion/17.webp",
       "/projectss/BMO Centre - Pavilion/18.webp",
     ],
-    industry: "Residential",
+    industry: "Commercial",
     status: "Completed",
   },
   {
@@ -254,7 +255,7 @@ const projectsData = [
       "/projectss/9th Ave Parkade Facade/8.webp",
       "/projectss/9th Ave Parkade Facade/9.webp",
     ],
-    industry: "Residential",
+    industry: "Commercial",
     status: "Completed",
   },
   {
@@ -266,7 +267,7 @@ const projectsData = [
       "/projectss/Glenbow Cladding/3.webp",
       "/projectss/Glenbow Cladding/4.webp",
     ],
-    industry: "Residential",
+    industry: "Public and Municipality buildings",
     status: "Completed",
   },
   {
@@ -288,12 +289,12 @@ const projectsData = [
       "/projectss/Esquire/13.webp",
       "/projectss/Esquire/14.webp",
     ],
-    industry: "Residential",
+    industry: "Residential - Multi Family",
     status: "Completed",
   },
   {
-    name: "Osten and Victor Tennis Centre",
-    slug: slugify("Osten and Victor Tennis Centre"),
+    name: "Ferrari Maserati",
+    slug: slugify("Ferrari Maserati"),
     imgs: [
       "/projectss/Ferrari Maserati/1.webp",
       "/projectss/Ferrari Maserati/2.webp",
@@ -303,7 +304,7 @@ const projectsData = [
       "/projectss/Ferrari Maserati/6.webp",
       "/projectss/Ferrari Maserati/7.webp",
     ],
-    industry: "Residential",
+    industry: "Commercial",
     status: "Completed",
   },
   {
@@ -320,7 +321,7 @@ const projectsData = [
       "/projectss/Osten and Victor Tennis Centre/8.webp",
       "/projectss/Osten and Victor Tennis Centre/9.webp",
     ],
-    industry: "Residential",
+    industry: "Public and Municipality buildings",
     status: "Completed",
   },
   {
@@ -336,14 +337,14 @@ const projectsData = [
       "/projectss/Legacy/7.webp",
       "/projectss/Legacy/8.webp",
     ],
-    industry: "Residential",
+    industry: "Specialty Fabrications",
     status: "Completed",
   },
   {
     name: "Mahogany Entry Features",
     slug: slugify("Mahogany Entry Features"),
     imgs: ["/projectss/Mahogany/1.webp", "/projectss/Mahogany/2.webp"],
-    industry: "Residential",
+    industry: "Specialty Fabrications",
     status: "Completed",
   },
   {
@@ -360,7 +361,7 @@ const projectsData = [
       "/projectss/Pacific Sands/8.webp",
       "/projectss/Pacific Sands/9.webp",
     ],
-    industry: "Residential",
+    industry: "Commercial",
     status: "Completed",
   },
   {
@@ -371,7 +372,7 @@ const projectsData = [
       "/projectss/Iqaluit Hotel/2.webp",
       "/projectss/Iqaluit Hotel/3.webp",
     ],
-    industry: "Residential",
+    industry: "Commercial",
     status: "Completed",
   },
 ];
