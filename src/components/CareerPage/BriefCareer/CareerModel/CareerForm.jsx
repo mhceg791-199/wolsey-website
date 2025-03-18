@@ -32,7 +32,7 @@ function CareerForm() {
       .email("Invalid email address")
       .required("Email is required"),
     message: Yup.string().required("Message is required"),
-      cv: Yup.mixed()
+    cv: Yup.mixed()
       .required("A CV is required")
       .test(
         "fileSize",
@@ -60,8 +60,7 @@ function CareerForm() {
     onSubmit: async (values) => {
       setIsLoading(true);
       const formdata = new FormData();
-      const { firstName, lastName, phone, email, message, cv } =
-        values;
+      const { firstName, lastName, phone, email, message, cv } = values;
 
       function SelectIndustry() {
         const { term, setTerm, industryOptions } = useContext(projectContext);
@@ -136,7 +135,7 @@ function CareerForm() {
       formdata.append("cv", cv);
 
       const { data } = await axios.post(
-        "http://92.113.31.133:3010/v1/api/candidate",
+        "/api/candidate",
         formdata
       );
       toast.success("Application Sent Successfully!", {
