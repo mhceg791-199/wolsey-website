@@ -24,7 +24,10 @@ function CareerForm() {
     firstName: Yup.string().min(2).max(20).required("first name is required"),
     lastName: Yup.string().min(2).max(20).required("last name is required"),
     phone: Yup.string()
-      .matches(/^[0-9]+$/, "Phone number must be numeric")
+      .matches(
+        /^\+?\d{1,3}[-.\s]?\(?\d{1,4}\)?[-.\s]?\d{1,9}[-.\s]?\d{1,9}[-.\s]?\d{1,9}$/,
+        "Phone number must be numeric"
+      )
       .min(10, "Phone number must be at least 10 digits")
       .max(15, "Phone number can't be longer than 15 digits")
       .required("Phone number is required"),
