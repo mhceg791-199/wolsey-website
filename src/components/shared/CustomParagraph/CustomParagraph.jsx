@@ -8,9 +8,12 @@ function CustomParagraph({ data }) {
     var { part1, part2 } = firstLine;
   }
 
+  console.log('====================================');
+  console.log(bgColor);
+  console.log('====================================');
   return (
     <>
-      <div className={`${bgColor && bgColor} text-justify  p-5`}>
+      <div className={`${bgColor && bgColor}  text-justify  p-5`}>
         {header && (
           <h2
             className={`text-mainBrown font-berlin custom-text-${header.fontSize} mb-3`}
