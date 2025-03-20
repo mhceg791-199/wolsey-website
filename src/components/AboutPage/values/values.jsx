@@ -42,27 +42,31 @@ function values() {
     <>
       <div
         style={{
-          backgroundImage: `url('/about/about.webp')`,
+          backgroundImage: `url("/about/about.webp")`,
           backgroundPosition: "right center",
           backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
 
           backgroundSize: `100% 100%`,
         }}
         className="flex flex-col justify-center md:ps-11 ps-5 py-10"
       >
-        <h2 className={`text-mainBrown font-berlin custom-text-xl mb-3`}>
-          VALUES
-        </h2>
-        {values.map((v, index) => (
-          <React.Fragment key={index}>
-            <p>
-              <span className={`custom-text-lg  font-semibold pe-1`}>
-                {v.title}
-              </span>
-            </p>
-            <p className={` custom-text-base mb-3 `}>{v.description}</p>
-          </React.Fragment>
-        ))}{" "}
+        <div className="w-3/4 p-10 px-5  bg-[#f3f1ec9b]">
+          <h1>
+            <span className="text-mainBrown font-berlin  custom-text-xl mb-3">
+              VALUES{" "}
+            </span>{" "}
+          </h1>
+          <div className="text-justify mt-5">
+            {values.map(({ title, description }, index) => (
+              <React.Fragment key={index}>
+                <p className="font-semibold custom-text-lg mb-1">{title}</p>
+                <p className="mb-3">{description}</p>
+              </React.Fragment>
+            ))}
+      
+          </div>
+        </div>
       </div>
     </>
   );
