@@ -81,21 +81,21 @@ const projectsData = [
     status: "Completed",
   },
 
-  {
-    name: "Cornerstone Townhomes",
-    slug: slugify("Cornerstone Townhomes"),
-    imgs: [
-      "/projectss/Cornerstone Townhomes/1.webp",
-      "/projectss/Cornerstone Townhomes/2.webp",
-      "/projectss/Cornerstone Townhomes/3.webp",
-      "/projectss/Cornerstone Townhomes/4.webp",
-      "/projectss/Cornerstone Townhomes/5.webp",
-      "/projectss/Cornerstone Townhomes/6.webp",
-      "/projectss/Cornerstone Townhomes/7.webp",
-    ],
-    industry: "Residential - Single Family",
-    status: "Completed",
-  },
+  // {
+  //   name: "Cornerstone Townhomes",
+  //   slug: slugify("Cornerstone Townhomes"),
+  //   imgs: [
+  //     "/projectss/Cornerstone Townhomes/1.webp",
+  //     "/projectss/Cornerstone Townhomes/2.webp",
+  //     "/projectss/Cornerstone Townhomes/3.webp",
+  //     "/projectss/Cornerstone Townhomes/4.webp",
+  //     "/projectss/Cornerstone Townhomes/5.webp",
+  //     "/projectss/Cornerstone Townhomes/6.webp",
+  //     "/projectss/Cornerstone Townhomes/7.webp",
+  //   ],
+  //   industry: "Residential - Single Family",
+  //   status: "Completed",
+  // },
   {
     name: "Haysboro Community Centre",
     slug: slugify("Haysboro Community Centre"),
