@@ -136,11 +136,9 @@ function CareerForm() {
       formdata.append("email", email);
       formdata.append("message", message);
       formdata.append("cv", cv);
+      formdata.append("websiteName", "wolsey");
 
-      const { data } = await axios.post(
-        "/api/candidate",
-        formdata
-      );
+      const { data } = await axios.post("/api/candidate", formdata);
       toast.success("Application Sent Successfully!", {
         position: "top-right",
         autoClose: 3000,
