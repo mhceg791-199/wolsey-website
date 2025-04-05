@@ -1,7 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { projectContext } from "../../context/ProjectsContext";
 import { Filteration } from "../../components/ProjectsPage/Filteration/Filtertation";
 import { ProjectCard } from "../../components/ProjectsPage/ProjectCard/ProjectCard";
+import ButtonToUp from "../../components/ProjectsPage/ButtonToUp/ButtonToUp.jsx";
 
 function ProjectPage() {
   const {
@@ -46,6 +47,8 @@ function ProjectPage() {
             );
           })}
         </div>
+        <ButtonToUp></ButtonToUp>
+
         {/* <div className="my-5 m-auto">
           <Pagination />
         </div> */}

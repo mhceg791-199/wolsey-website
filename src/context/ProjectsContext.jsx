@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from "react";
+import  { createContext, useEffect, useState } from "react";
 import projectsData from "./data/ProjectsData";
 
 export const projectContext = createContext(null);
@@ -27,7 +27,6 @@ function ProjectsContextProvider({ children }) {
     setIndustryOptions(uniqueIndustries);
   }, [projects]);
   const projectFilter = (terms) => {
-    console.log(terms);
 
     setFilteredProjects(
       projects

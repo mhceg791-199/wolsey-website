@@ -17,6 +17,15 @@ module.exports = withMT({
         acumin: ['"Acumin Variable Concept"', "sans-serif"],
         berlin: ['"Berlin Sans FB"', "Arial", "sans-serif"],
       },
+      keyframes: {
+        'translate-up': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-0.5rem)' }, // adjust distance here
+        },
+      },
+      animation: {
+        'translate-up': 'translate-up 0.8s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
