@@ -366,20 +366,20 @@ const projectsData = [
     industry: "Commercial",
     status: "Completed",
   },
+  // {
+  //   name: "⁠Iqaluit Hotel and Conference Center",
+  //   slug: slugify("⁠Iqaluit Hotel and Conference Center"),
+  //   imgs: [
+  //     "/projectss/Iqaluit Hotel/1.webp",
+  //     "/projectss/Iqaluit Hotel/2.webp",
+  //     "/projectss/Iqaluit Hotel/3.webp",
+  //   ],
+  //   industry: "Commercial",
+  //   status: "Completed",
+  // },
   {
-    name: "⁠Iqaluit Hotel and Conference Center",
-    slug: slugify("⁠Iqaluit Hotel and Conference Center"),
-    imgs: [
-      "/projectss/Iqaluit Hotel/1.webp",
-      "/projectss/Iqaluit Hotel/2.webp",
-      "/projectss/Iqaluit Hotel/3.webp",
-    ],
-    industry: "Commercial",
-    status: "Completed",
-  },
-  {
-    name: "1741 Shagganappi ",
-    slug: slugify("1741 Shagganappi "),
+    name: "1741",
+    slug: slugify("1741"),
     imgs: [
       "/projectss/1741 Shagganappi/1.webp",
       "/projectss/1741 Shagganappi/2.webp",
@@ -388,7 +388,7 @@ const projectsData = [
       "/projectss/1741 Shagganappi/5.webp",
       "/projectss/1741 Shagganappi/6.webp",
     ],
-    industry: "Commercial",
+    industry: "Residential - Multi Family",
     status: "Completed",
   },
   {
