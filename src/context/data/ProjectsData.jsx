@@ -147,9 +147,6 @@ const projectsData = [
     slug: slugify("Shawnee Park Phase 4 Entry"),
     imgs: [
       "/projectss/Shawnee Park Phase 4 Entry/1.webp",
-      "/projectss/Shawnee Park Phase 4 Entry/2.webp",
-      "/projectss/Shawnee Park Phase 4 Entry/3.webp",
-      "/projectss/Shawnee Park Phase 4 Entry/4.webp",
     ],
     industry: "Residential - Single Family",
     status: "Completed",
