@@ -148,7 +148,7 @@ const projectsData = [
     imgs: [
       "/projectss/Shawnee Park Phase 4 Entry/1.webp",
     ],
-    industry: "Residential - Single Family",
+    industry: "Specialty Fabrications",
     status: "Completed",
   },
 
@@ -543,21 +543,6 @@ const projectsData = [
     imgs: [
       "/projectss/7711/1.webp",
       "/projectss/7711/2.webp",
-    ],
-    industry: "Residential - Multi Family",
-    status: "Completed",
-  },
-  {
-    name: "Arcola at Spring Willow",
-    slug: slugify("Arcola at Spring Willow"),
-    imgs: [
-      "/projectss/Arcola at Spring Willow/1.webp",
-      "/projectss/Arcola at Spring Willow/2.webp",
-      "/projectss/Arcola at Spring Willow/3.webp",
-      "/projectss/Arcola at Spring Willow/4.webp",
-      "/projectss/Arcola at Spring Willow/5.webp",
-      "/projectss/Arcola at Spring Willow/6.webp",
-      "/projectss/Arcola at Spring Willow/7.webp",
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
