@@ -123,7 +123,6 @@ const projectsData = [
       "/projectss/Sagecourt Strathmore/1.webp",
       "/projectss/Sagecourt Strathmore/2.webp",
       "/projectss/Sagecourt Strathmore/3.webp",
-      "/projectss/Sagecourt Strathmore/4.webp",
     ],
     industry: "Residential - Single Family",
     status: "Completed",
