@@ -57,17 +57,17 @@ const projectsData = [
     industry: "Residential - Multi Family",
     status: "Completed",
   },
-  {
-    name: "Country Hills Toyota Addition",
-    slug: slugify("Country Hills Toyota Addition"),
-    imgs: [
-      "/projectss/Country Hills Toyota Addition/1.webp",
-      "/projectss/Country Hills Toyota Addition/2.webp",
-      "/projectss/Country Hills Toyota Addition/3.webp",
-    ],
-    industry: "Commercial",
-    status: "Completed",
-  },
+  // {
+  //   name: "Country Hills Toyota Addition",
+  //   slug: slugify("Country Hills Toyota Addition"),
+  //   imgs: [
+  //     "/projectss/Country Hills Toyota Addition/1.webp",
+  //     "/projectss/Country Hills Toyota Addition/2.webp",
+  //     "/projectss/Country Hills Toyota Addition/3.webp",
+  //   ],
+  //   industry: "Commercial",
+  //   status: "Completed",
+  // },
   {
     name: "Bankview 20 (Grow)",
     slug: slugify("Bankview 20 (Grow)"),
