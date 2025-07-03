@@ -251,7 +251,6 @@ const projectsData = [
       "/projectss/9th Ave Parkade Facade/6.webp",
       "/projectss/9th Ave Parkade Facade/7.webp",
       "/projectss/9th Ave Parkade Facade/8.webp",
-      "/projectss/9th Ave Parkade Facade/9.webp",
     ],
     industry: "Commercial",
     status: "Completed",
