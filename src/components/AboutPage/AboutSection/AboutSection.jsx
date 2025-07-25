@@ -35,9 +35,9 @@ function AboutSection() {
 
           backgroundSize: `100% 100%`,
         }}
-        className="flex flex-col justify-center md:ps-11 ps-5 py-10"
+        className="flex flex-col justify-center md:ps-11 px-5 py-10"
       >
-        <div className="w-3/4 p-10 px-5  bg-[#f3f1ec9b]">
+        <div className="md:w-3/4 p-10 px-5  bg-[#f3f1ecd8]">
           <h1>
             <span className="text-mainBrown font-berlin  custom-text-xl mb-3">
               ABOUT US
