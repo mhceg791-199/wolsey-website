@@ -3,7 +3,7 @@ import TextWithImg from "../../shared/TextWithImg/TextWithImg";
 
 function Vision() {
   const data = {
-    header: { text: "VISSION", fontSize: "xl" },
+    header: { text: "VISION", fontSize: "xl" },
     imgFirst: true,
     bgColor: "mainGray",
     img: "/about/vision.webp",
