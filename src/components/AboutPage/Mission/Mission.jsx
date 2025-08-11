@@ -26,13 +26,13 @@ function Mission() {
         >
           <div className="p-5">
 
-          <h2
-            className={`text-mainBrown font-berlin custom-text-${data.header.fontSize} mb-3`}
+            <h2
+              className={`text-mainBrown font-berlin custom-text-${data.header.fontSize} mb-3`}
             >
-            {data.header.text}
-          </h2>
-          <p className={` my-2`}>Wolsey Structural Engineering is committed to delivering world-class structural designs providing  innovative, sustainable, and precise designs. Our client-focused approach ensures cost-effective solutions that exceed expectations while prioritizing safety, quality, and environmental responsibility.</p>
-            </div>
+              {data.header.text}
+            </h2>
+            Wolsey Structural Engineering champions world-class structural design through groundbreaking innovation, sustainability, and exacting precision. Our client-first philosophy delivers optimized solutions that surpass expectations while exceeding safety, quality, and environmental benchmarks.
+          </div>
           {/* <CustomParagraph data={data} /> */}
         </div>
       </div>

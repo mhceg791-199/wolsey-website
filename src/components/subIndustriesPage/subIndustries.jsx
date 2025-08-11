@@ -16,7 +16,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Wolsey designs and engineers durable, high-quality structures for multifamily residential buildings. Our solutions prioritize safety, efficiency, and compliance with industry standards, ensuring long-term stability while fostering sustainable community growth.",
+        "Wolsey pioneers durable, high-caliber structures for multifamily residential buildings. Our solutions champion safety, efficiency, and exemplary compliance, ensuring generational stability while catalyzing sustainable communities. ",
       ],
       link: "/projects",
     },
@@ -33,7 +33,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "We create strong, adaptable structural designs for retail spaces, ensuring durability, functionality, and efficiency. Our expertise supports the unique demands of retail operations, optimizing layouts for usability, customer flow, and long-term performance.",
+        "We craft robust, future-adaptive structural designs for retail spaces, guaranteeing durability, functionality, and peak efficiency. Our expertise addresses the nuanced demands of retail operations, perfecting layouts for seamless usability and unmatched performance.",
       ],
       link: "/projects",
     },
@@ -50,7 +50,7 @@ function SubIndustries() {
         },
       },
       normalText: [
-        "Our office warehouse solutions focus on structural integrity, load-bearing efficiency, and adaptability. We engineer durable, high-performance facilities that accommodate diverse business needs while maximizing space utilization and operational efficiency.",
+        "Our office warehouse solutions exemplify structural integrity, load-bearing excellence, and multifunctional adaptability. We engineer fortified, high-performance facilities that anticipate diverse business needs while redefining space utilization.",
       ],
       link: "/projects",
     },

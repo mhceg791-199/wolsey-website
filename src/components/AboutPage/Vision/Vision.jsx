@@ -32,7 +32,7 @@ function Vision() {
             >
               {data.header.text}
             </h2>
-            <p className={` my-2`}>Wolsey Structural Engineering is committed to delivering world-class structural designs providing  innovative, sustainable, and precise designs. Our client-focused approach ensures cost-effective solutions that exceed expectations while prioritizing safety, quality, and environmental responsibility.</p>
+            <p className={` my-2`}>To spearhead the evolution of structural engineering by establishing global benchmarks in resilient, sustainable, and visionary design. Through pioneering methodologies and uncompromising integrity, we shape a built environment that drives progress and uplifts communities. </p>
           </div>
           {/* <CustomParagraph data={data} /> */}
         </div>

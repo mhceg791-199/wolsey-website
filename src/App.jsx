@@ -22,6 +22,7 @@ import SolutionsPage from "./pages/SolutionsPage/SolutionsPage";
 import SubIndustriesPage from "./pages/subIndustriesPage/subIndustriesPage";
 import ProjectsDetailsPage from "./pages/ProjectsDetailsPage/projectsDetailsPage";
 import AboutPage from "./pages/aboutPage/aboutPage";
+import NotFoundPage from "./pages/notFoundPage/notFoundPage.jsx";
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
             <Layout>
               <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/home" element={<HomePage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route
                   path="/missionAndVision"
@@ -55,6 +57,8 @@ function App() {
                 <Route path="/privacy-policy" element={<PrivacyPage />} />
                 <Route path="/career" element={<CareerPage />} />
                 <Route path="/terms-conditions" element={<TermsPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+
               </Routes>
             </Layout>
           </CareerModelProvider>

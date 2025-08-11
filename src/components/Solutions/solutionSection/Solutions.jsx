@@ -9,19 +9,11 @@ function Solutions() {
             OUR SOLUTIONS
           </span>
           <span className="custom-text-lg font-semibold">
-            With over 50 years of expertise, Wolsey Structural Engineering Ltd.
+            With over 50 years of expertise to deliver avant-garde solutions in concrete
           </span>
         </p>
         <p>
-          provides innovative structural engineering solutions in reinforced
-          concrete, steel, and timber. Wolsey’s approach stands out for its precision
-          and cutting-edge design. Each project integrates meticulous sizing,
-          static and dynamic analyses, and detailed layouts for flawless
-          integration. Utilizing advanced 3D modelling in BIM and REVIT up to
-          LOD 300 and 400, we ensure our drafts are fabrication-ready, promoting
-          an error-free construction process. At Wolsey, client satisfaction is
-          paramount. We've partnered with over 150 clients, with more than 95%
-          returning, to bring their visions to life with exceptional precision.
+          steel, and timber. Our signature precision integrates rigorous analyses and flawless BIM/REVIT modeling (LOD 300-400), ensuring fabrication-ready accuracy. With 95% client retention across 150+ prestigious partnerships, we bring visionary designs to life.
         </p>
       </div>
     </>
