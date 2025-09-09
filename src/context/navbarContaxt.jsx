@@ -87,10 +87,10 @@ function NavbarContaxtProvider({ children }) {
     //   ],
     // },
 
-    {
-      name: "Career opportunities",
-      path: { page: "/career", section: "engineers" },
-    },
+    // {
+    //   name: "Career opportunities",
+    //   path: { page: "/career", section: "engineers" },
+    // },
     { name: "Contact us", path: { page: "/contact-us", section: "engineers" } },
   ];
   return (
