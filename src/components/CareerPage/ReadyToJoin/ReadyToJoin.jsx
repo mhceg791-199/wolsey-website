@@ -15,11 +15,7 @@ function ReadyToJoin() {
             Ready to Join Us?
           </h2>
           <p className="text-center mt-5">
-            If you’re inspired to shape the future with a team that values
-            ambition, excellence, and professional growth, Wolsey is the place
-            to elevate your career. Explore our current opportunities and join a
-            company that invests in your potential to drive industry evolution.
-          </p>
+            Pioneer the future with a team dedicated to ambition, excellence, and boundless growth. Explore opportunities to elevate your career with a firm invested in your global impac</p>
           <div className="text-center mt-5">
             <button
               onClick={() => {

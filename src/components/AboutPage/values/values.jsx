@@ -6,36 +6,36 @@ function values() {
     {
       title: "Engineering Excellence",
       description:
-        "Delivering innovative, precise, and high-performance structural solutions.",
+        "Mastering innovative, precise, and high-performance solutions. ",
     },
     {
       title: "Client-Centric Focus",
       description:
-        "Building strong partnerships through tailored, impactful outcomes.",
+        "Forging trusted partnerships through bespoke, results-driven outcomes. ",
     },
     {
-      title: "Integrity and Professionalism",
+      title: "Integrity & Professionalism",
       description:
-        "Upholding ethical standards and ensuring transparency in all engagements.",
+        "Exemplifying ethical standards and transparency. ",
     },
     {
       title: "Sustainability",
       description:
-        "Prioritizing environmentally responsible designs for lasting impact.",
+        "Advancing environmental stewardship for generational resilience. ",
     },
     {
-      title: "Multidisciplinary Expertise",
-      description: "Offering versatile solutions across diverse industries.",
+      title: "Multidisciplinary Expertise ",
+      description: "Delivering versatile, industry-defining solutions. ",
     },
     {
-      title: "Commitment to Quality",
+      title: "Commitment to Quality ",
       description:
-        "Crafting durable, efficient, and visually refined structures.",
+        "Guaranteeing durability, efficiency, and architectural refinement. ",
     },
     {
-      title: "Visionary Innovation",
+      title: "Visionary Innovation ",
       description:
-        "Redefining the structural landscape through cutting-edge methodologies.",
+        "Leading next-generation engineering through breakthrough technologies. ",
     },
   ];
   return (

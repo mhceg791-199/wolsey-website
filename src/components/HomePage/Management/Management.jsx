@@ -15,11 +15,11 @@ function Management() {
       part2: {
         isBold: false,
         fontSize: "lg",
-        text: " LEED AP, P.Eng., founded Wolsey Structural Engineering Ltd. ",
+        text: " LEED AP, P.Eng., established Wolsey Structural Engineering Ltd. ",
       },
     },
     normalText: [
-      "in 2006 following a distinguished career collaborating with leading engineers on high-profile projects worldwide. In mid-2023, Wolsey Structural Engineering proudly joined Mosaic Holding Corporation as a subsidiary.",
+      "in 2006 after a decorated career collaborating with preeminent engineers on globally renowned projects. In mid-2023, Wolsey became a proud subsidiary of Mosaic Holding Corporation, marking a strategic milestone in our global expansion.",
     ],
     learnMore: { path: "/founder" },
   };

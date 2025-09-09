@@ -25,29 +25,10 @@ function ServicesBrief() {
               </span>
             </h1>
             <div className="text-justify mt-5">
+              <p className="mb-3">With 1,000+ landmark projects across four continents, Wolsey epitomizes innovation, precision, and engineering mastery. Our global expertise includes transformative infrastructure, iconic cultural landmarks, cutting-edge healthcare facilities, and high-performance commercial developments.</p>
               <p className="mb-3">
-                With a legacy of over 1,000 projects across four continents,
-                Wolsey's portfolio reflects an unwavering dedication to
-                innovation, precision, and engineering excellence. Our expertise
-                spans diverse sectors, including large-scale infrastructure,
-                iconic cultural landmarks, advanced healthcare facilities,
-                industrial complexes, and modern residential and commercial
-                developments.
-              </p>
-              <p className="mb-3">
-                At Wolsey, we seamlessly integrate structural integrity,
-                technical ingenuity, and sustainable engineering practices to
-                deliver solutions that stand the test of time. Every project is
-                designed to meet functional demands while optimizing
-                performance, safety, and efficiency, ensuring a lasting impact
-                on the built environment.
-              </p>
-              <p className="mb-3">
-                This proven track record underscores not only our technical
-                expertise but also our collaborative approach and commitment to
-                enhancing communities through thoughtful, cutting-edge
-                structural engineering solutions.
-              </p>
+                We orchestrate structural integrity, technical brilliance, and sustainable practices to deliver timeless solutions. Each project exceeds functional demands while optimizing performance, safety, and efficiency, leaving an indelible mark on the built environment. </p>
+
             </div>
           </div>
         </div>

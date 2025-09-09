@@ -16,12 +16,7 @@ function FirstSection() {
               Founded in 2006, Wolsey Structural Engineering
             </p>
             <p className="text-justify ">
-              delivers innovative, sustainable solutions across diverse sectors,
-              with over 3,000 projects completed worldwide. Backed by 20+
-              skilled engineers, Wolsey combines precision and environmental
-              responsibility to create resilient, future-focused structures that
-              set new industry standards and enrich communities.
-            </p>
+              delivers cutting-edge, sustainable solutions across global sectors, with over 3,000 high-impact projects completed worldwide. Supported by a team of 20+ elite engineers, Wolsey combines unparalleled precision and environmental responsibility to create next-generation structures that not only redefine industry standards but also elevate communities.  </p>
             <LearnMore path="/about" />
           </div>
         </div>
