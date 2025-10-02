@@ -5,38 +5,27 @@ import useCountUp from "../../../hooks/useCountUp";
 function WolseyInNumbers() {
   const { ref, inView } = useInView({ triggerOnce: true });
 
-  const numberData = [
+   const numberData = [
     {
       name: "Years of expertise",
-      number: useCountUp(50, inView),
+      number: useCountUp(50, inView, 3000),
       icon: "+",
     },
     {
       name: "Wolsey’s full team",
-      number: useCountUp(20, inView, 2000),
+      number: useCountUp(20, inView, 3000),
       icon: "+",
     },
-    {
-      name: "Clients",
-      number: useCountUp(150, inView, 10000),
-      icon: "+",
-    },
+    { name: "Clients", number: useCountUp(150, inView, 3000), icon: "+" },
     {
       name: "Recurring clients",
-      number: useCountUp(95, inView, 4000),
+      number: useCountUp(95, inView, 3000),
       icon: "%",
     },
-    {
-      name: "Countries",
-      number: useCountUp(10, inView, 1000),
-      icon: "+",
-    },
-    {
-      name: "Projects",
-      number: useCountUp(3000, inView, 70000),
-      icon: "+",
-    },
-  ];
+    { name: "Countries", number: useCountUp(10, inView, 3000), icon: "+" },
+    { name: "Projects", number: useCountUp(3000, inView, 3000), icon: "+" },
+  ]; 
+  
   return (
     <>
       <div className="bg-[url('/about/numbers.webp')]  bg-cover bg-center relative py-10 ">

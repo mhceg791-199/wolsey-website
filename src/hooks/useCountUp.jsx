@@ -4,10 +4,12 @@ function useCountUp(target, start = false, duration = 5000) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (!start) return; // Only start counting when "start" is true
+    if (!start) return;
 
     let startCount = 0;
-    const increment = target / (duration / 10); // Increment per 10ms
+    const stepTime = 10; // كل 10ms يحدث update
+    const increment = target / (duration / stepTime);
+
     const counter = setInterval(() => {
       startCount += increment;
       if (startCount >= target) {
@@ -15,9 +17,9 @@ function useCountUp(target, start = false, duration = 5000) {
         clearInterval(counter);
       }
       setCount(Math.floor(startCount));
-    }, 10);
+    }, stepTime);
 
-    return () => clearInterval(counter); // Cleanup on unmount
+    return () => clearInterval(counter);
   }, [target, duration, start]);
 
   return count;
