@@ -7,7 +7,7 @@ function useCountUp(target, start = false, duration = 5000) {
     if (!start) return;
 
     let startCount = 0;
-    const stepTime = 10; // كل 10ms يحدث update
+    const stepTime = 10; 
     const increment = target / (duration / stepTime);
 
     const counter = setInterval(() => {
