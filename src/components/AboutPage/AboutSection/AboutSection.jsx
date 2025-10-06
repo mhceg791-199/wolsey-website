@@ -42,7 +42,6 @@ function AboutSection() {
             <span className="text-mainBrown font-berlin  custom-text-xl mb-3">
               ABOUT US
             </span >{" "}
-            <span className="font-semibold custom-text-lg">Founded in 2006, Wolsey Structural Engineering</span>
           </h1>
           <div className="text-justify mt-5">
             <span className="font-semibold custom-text-lg mb-3">Founded in 2006, Wolsey Structural Engineering</span>

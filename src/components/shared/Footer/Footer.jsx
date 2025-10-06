@@ -7,7 +7,7 @@ function Footer() {
     <>
       <div className="grid md:grid-cols-10 grid-cols-1 p-5 py-0 gap-y-5 bg-mainGray">
         <div className="md:col-span-2 col-span-1 flex justify-center ">
-          <img className="object-contain  px-8" src="/images/logo.png" alt="" />
+          <img className="object-contain  px-8" src="/images/logo.jpg" alt="footer" />
         </div>
         <div className="md:col-span-5 col-span-1 flex md:items-start items-center flex-col justify-center  ">
           <p className="custom-text-lg md:text-start  font-semibold space-x-2">
