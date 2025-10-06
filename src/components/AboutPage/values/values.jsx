@@ -1,5 +1,6 @@
 import React from "react";
 import TextWithImg from "../../shared/TextWithImg/TextWithImg";
+import aboutImg from '../../../assets/about/about.webp';
 
 function values() {
   const values = [
@@ -42,7 +43,7 @@ function values() {
     <>
       <div
         style={{
-          backgroundImage: `url("/about/about.webp")`,
+          backgroundImage: `url(${aboutImg})`,
           backgroundPosition: "right center",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
