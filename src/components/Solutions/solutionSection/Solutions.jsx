@@ -4,7 +4,7 @@ function Solutions() {
   return (
     <>
       <div className="bg-mainGray text-center px-20 py-10 ">
-        <p className="my-5">
+        <p className="my-2">
           <span className="text-mainBrown pe-2 font-berlin custom-text-xl">
             OUR SOLUTIONS
           </span>
