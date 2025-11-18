@@ -27,7 +27,7 @@ function ContactUsDetails() {
     <>
       <div className="mt-10">
         <>
-          <h1 className="custom-text-xl font-berlin border-b-4 mb-14 border-mainBrown inline-flex">
+          <h1 className="custom-text-xl font-berlin border-b-4 border-mainBrown inline-flex">
             CONTACT US
           </h1>
           {/* <div className="flex items-center my-3">
