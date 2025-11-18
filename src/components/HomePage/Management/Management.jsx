@@ -5,11 +5,11 @@ function Management() {
   const data = {
     header: { text: "MANAGEMENT TEAM", fontSize: "xl" },
     imgFirst: true,
-    img: "/home/managementTeam.webp",
+    img: "/home/p2.webp",
     firstLine: {
       part1: {
         isBold: true,
-        text: "Danny Wolsey",
+        text: "Wolsey",
         fontSize: "lg",
       },
       part2: {

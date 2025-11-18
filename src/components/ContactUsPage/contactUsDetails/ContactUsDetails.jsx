@@ -6,10 +6,10 @@ function ContactUsDetails() {
     //   icon: "fa-solid fa-phone",
     //   text: "Tel: 0222676674",
     // },
-    {
-      icon: "fa-solid fa-phone",
-      text: "Tel: +1 403-452-4711",
-    },
+    // {
+    //   icon: "fa-solid fa-phone",
+    //   text: "Tel: +1 403-452-4711",
+    // },
     {
       icon: "fa-solid fa-earth-americas",
       text: "info@wolsey.ca",
@@ -30,14 +30,14 @@ function ContactUsDetails() {
           <h1 className="custom-text-xl font-berlin border-b-4 mb-14 border-mainBrown inline-flex">
             CONTACT US
           </h1>
-          <div className="flex items-center my-3">
+          {/* <div className="flex items-center my-3">
             <i
               class={` fa-solid fa-phone text-mainBrown me-2 custom-text-lg`}
             ></i>
             <p className={` sm:text-small md:text-2xl `}>
               Tel: +1 403-452-4711
             </p>
-          </div>
+          </div> */}
           <div className="flex items-center my-3 mt-10">
             <i
               class={` fa-solid fa-envelope text-mainBrown me-2 custom-text-lg`}

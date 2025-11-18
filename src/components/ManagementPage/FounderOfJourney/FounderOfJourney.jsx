@@ -8,7 +8,7 @@ function FounderOfJourney() {
         isBold: true,
         fontSize: "xl",
         color: "text-mainBrown",
-        text: "DANNY WOLSEY",
+        text: "WOLSEY",
       },
       part2: {
         isBold: true,
@@ -18,9 +18,11 @@ function FounderOfJourney() {
     },
     bgColor: "bg-secondGray",
     normalText: [
-      "Danny Wolsey, LEED AP, P.Eng., founded Wolsey Structural Engineering Ltd. in 2006 following a distinguished career collaborating with leading engineers on high-profile projects worldwide. In late-2023, Wolsey Structural Engineering proudly joined Mosaic Holding Corporation as a subsidiary.",
-      "His experiences span across 5 continents - North America, Oceania, Asia, Europe and Africa- contributing to high-profile projects in more than 15 countries across the globe. With a diverse portfolio ranging from institutional and commercial projects to entertainment and residential designs, Danny has developed a profound understanding of complex structural challenges, always prioritizes practical, innovative, and sustainable solutions.",
-      "His vision for the firm centres on client satisfaction, and collaboration, believing that sustainable design is not only beneficial for the environment but also adds lasting value to construction. Danny's leadership and expertise have been key in transforming Wolsey into a trusted leader in the structural engineering field, renowned for its ability to elevate the performance of each project it undertakes",
+      "The company was founded in 2006 following a distinguished career collaborating with leading engineers on high-profile projects worldwide. In late 2023, Wolsey Structural Engineering proudly joined Mosaic Holding Corporation as a subsidiary.",
+
+      "Experience spans across 5 continents — North America, Oceania, Asia, Europe, and Africa — contributing to high-profile projects in more than 15 countries across the globe. With a diverse portfolio ranging from institutional and commercial projects to entertainment and residential designs, the firm has developed a deep understanding of complex structural challenges, always prioritizing practical, innovative, and sustainable solutions.",
+
+      "The firm’s vision centres on client satisfaction and collaboration, with a belief that sustainable design not only benefits the environment but also adds long-term value to construction. This approach has helped shape Wolsey into a trusted leader in the structural engineering field, recognized for its ability to elevate the performance of each project it undertakes.",
     ],
   };
   const { header, learnMore, normalText, firstLine, handelWidth, bgColor } =
@@ -32,7 +34,7 @@ function FounderOfJourney() {
         <div className="col-span-1 lg:flex ">
           <img
             className="lg:translate-x-5 lg:w-5/6 lg:ms-auto lg:my-auto"
-            src="/management/founder.webp"
+            src="/home/p2.webp"
             alt=""
           />
         </div>
