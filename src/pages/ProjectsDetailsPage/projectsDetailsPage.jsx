@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import projectsData from "../../context/data/ProjectsData";
 import SliderOfImgsProject from "../../components/ProjectDetails/sliderOfImgsProject/sliderOfImgsProject";
 
-
 function ProjectsDetailsPage() {
   const { slug } = useParams();
 
@@ -12,14 +11,21 @@ function ProjectsDetailsPage() {
     return <div className="py-40 text-center text-2xl">Project not found.</div>;
   }
 
-  const { description, year, location, status, client, industry, imgs, name } =
-    project;
+  const {
+    description,
+    year,
+    location,
+    status,
+    client,
+    industry,
+    imgs,
+    name,
+    awards,
+  } = project;
 
   const DetailBlock = ({ label, value }) => (
     <div className="border-b border-gray-200 py-3">
-      <p className="paragraph font-semibold  uppercase">
-        {label}
-      </p>
+      <p className="paragraph font-semibold  uppercase">{label}</p>
       <p className="text-base font-medium">{value}</p>
     </div>
   );
@@ -75,12 +81,12 @@ function ProjectsDetailsPage() {
               <h3 className="text-2xl text-mainDark font-bold mb-6">
                 Overview
               </h3>
-              <p className="text-xl text-mainBrown mt-2">
-                Structural Engineering Project
+              <p className="paragraph text-mainDark mt-2">
+                {description}
               </p>
-              {/* {description &&
-                Array.isArray(description) &&
-                description.map((d, index) => (
+              {/* {awards &&
+                Array.isArray(awards) &&
+                awards.map((d, index) => (
                   <p
                     className="my-4 text-lg leading-relaxed text-neutral-700"
                     key={index}
@@ -88,6 +94,14 @@ function ProjectsDetailsPage() {
                     {d}
                   </p>
                 ))} */}
+              <ul className="space-y-3 my-4">
+                {awards.map((award, index) => (
+                  <li key={index} className="flex gap-3 text-lightColor">
+                    <span className="text-mainGold">•</span>
+                    {award}
+                  </li>
+                ))}
+              </ul>
             </div>
 
             {/* (Slider) */}

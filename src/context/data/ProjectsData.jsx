@@ -12,6 +12,8 @@ const ProjectsData = [
     ],
     industry: "Administrative",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   {
@@ -23,6 +25,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Mount Pleasant 8",
@@ -36,6 +40,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Single Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "The Mark 101",
@@ -43,6 +49,8 @@ const ProjectsData = [
     imgs: ["/projectss/The Mark 101/1.webp", "/projectss/The Mark 101/2.webp"],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   {
@@ -56,6 +64,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   // {
   //   name: "Country Hills Toyota Addition",
@@ -79,6 +89,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   // {
@@ -102,6 +114,8 @@ const ProjectsData = [
     imgs: ["/projectss/Haysboro Community Centre/1.webp"],
     industry: "Public and Municipality buildings",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Switch Bloc",
@@ -114,6 +128,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   {
@@ -126,6 +142,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Single Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Centaur Subaru",
@@ -140,6 +158,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Shawnee Park Phase 4 Entry",
@@ -149,6 +169,8 @@ const ProjectsData = [
     ],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   {
@@ -157,6 +179,8 @@ const ProjectsData = [
     imgs: ["/projectss/Chinook Gate/2.webp"],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   {
@@ -171,6 +195,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"This Four-storey Hotel and Conference Centre was completed in 2019 with approximately 50 000 ft of modular floor space. These Modular Units were designed for function and to withstand the anticipated transport to the final location in Canada’s Arctic.",
+    awards:[]
   },
 
   {
@@ -188,6 +214,8 @@ const ProjectsData = [
     ],
     industry: "Public and Municipality buildings",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 
   {
@@ -201,6 +229,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Tidal Beacon",
@@ -212,10 +242,16 @@ const ProjectsData = [
     ],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"The project consists of a new 65 ft tall steel-framed structure integrated with an existing oceanside wharf building in Halifax, NS. The open-air installation features perimeter steel columns supporting tensioned cables with small rotating flappers. The columns bear on the existing building structure, requiring coordination with the base building engineer.",
+    awards:[
+      "Structural engineering design of the 65 ft steel superstructure",
+      "Sealed structural drawings for permit submission",
+      "Construction-phase services, including shop drawing reviews and field reviews"
+    ]
   },
   {
-    name: "BMO Centre - Pavilion",
-    slug: slugify("BMO Centre - Pavilion"),
+    name: "The BMO Pavilion",
+    slug: slugify("The BMO Pavilion"),
     imgs: [
       "/projectss/BMO Centre - Pavilion/1.webp",
       "/projectss/BMO Centre - Pavilion/2.webp",
@@ -238,6 +274,12 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description: "The project consists of the structural design of the Pavilion canopy’s light-gauge and structural steel framing that supports the curved cladding. The cladding system is supported by the base building’s structural steel and by concrete foundations, both provided by the base building engineer. Heavy Industries produce the structural drawings for the project.",
+    awards: [
+      "Structural engineering for the light-gauge and structural steel framing supporting the cladding",
+      "Sealing of structural drawings for permit submission",
+      "Construction-period services, including shop drawing reviews and field reviews",
+    ],
   },
   {
     name: "9th Ave Parkade Aluminum Façade",
@@ -254,6 +296,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Glenbow Cladding",
@@ -266,6 +310,8 @@ const ProjectsData = [
     ],
     industry: "Public and Municipality buildings",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Esquire",
@@ -288,10 +334,12 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
-    name: "Ferrari Maserati",
-    slug: slugify("Ferrari Maserati"),
+    name: "Ferrari Maserati Dealership",
+    slug: slugify("Ferrari Maserati Dealership"),
     imgs: [
       "/projectss/Ferrari Maserati/1.webp",
       "/projectss/Ferrari Maserati/2.webp",
@@ -303,6 +351,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"The project consists of two two-storey steel-framed car dealership buildings constructed over separate single-storey concrete parkades in southeast Calgary. Phase 1 has an approximate footprint of 15,000 ft², and Phase 2 approximately 6,300 ft². Main floors are two-way concrete slabs supported by concrete columns and perimeter walls. The superstructure above consists of conventional steel framing, with precast concrete double tees at the second floor and open-web steel joists with metal deck at the roof. Above-grade perimeter walls are non-loadbearing precast panels with curtain wall and selected punched openings. Foundations are assumed to be concrete frost walls with strip and spread footings, with slab-on-grade construction in the parkades.",
+    awards:[]
   },
   {
     name: "Osten and Victor Tennis Centre",
@@ -320,6 +370,8 @@ const ProjectsData = [
     ],
     industry: "Public and Municipality buildings",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Legacy Landscape Elements",
@@ -336,6 +388,8 @@ const ProjectsData = [
     ],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Mahogany Entry Features",
@@ -343,6 +397,8 @@ const ProjectsData = [
     imgs: ["/projectss/Mahogany/1.webp", "/projectss/Mahogany/2.webp"],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "⁠Pacific Sands Resort",
@@ -360,6 +416,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   // {
   //   name: "⁠Iqaluit Hotel and Conference Center",
@@ -385,6 +443,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "43 Park",
@@ -397,6 +457,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Banff Husky",
@@ -412,6 +474,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "BMO Centre - Fireplace",
@@ -422,6 +486,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Chestermere Apostolic Church",
@@ -438,6 +504,8 @@ const ProjectsData = [
     ],
     industry: "Public and Municipality buildings",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Country Hills Mercedes",
@@ -457,6 +525,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Dilawri Warehouse",
@@ -473,6 +543,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Airdrie Honda",
@@ -488,6 +560,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Einstein",
@@ -501,6 +575,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Crowfoot Keg",
@@ -516,6 +592,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Jacksonport Commercial",
@@ -534,6 +612,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "7711",
@@ -544,6 +624,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Arcola at Spring Willow",
@@ -559,6 +641,8 @@ const ProjectsData = [
     ],
     industry: "Residential - Multi Family",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Calgary Zoo - Bugtopia",
@@ -575,6 +659,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Calgary Zoo - Lions Walk",
@@ -584,6 +670,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Calgary Zoo Egg",
@@ -597,6 +685,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Capital Paper Edmonton",
@@ -606,6 +696,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Cirque Du Soleil",
@@ -617,6 +709,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Clearwater Lighthouse",
@@ -629,6 +723,8 @@ const ProjectsData = [
     ],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Cochrane GM",
@@ -647,6 +743,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Comfort Inn",
@@ -660,6 +758,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "CrossIron Interior Sculpture",
@@ -673,6 +773,8 @@ const ProjectsData = [
     ],
     industry: "Specialty Fabrications",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "CrossIron Mills",
@@ -693,6 +795,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Crowfoot Crossing",
@@ -705,6 +809,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
   {
     name: "Datalog",
@@ -720,6 +826,8 @@ const ProjectsData = [
     ],
     industry: "Commercial",
     status: "Completed",
+    description:"",
+    awards:[]
   },
 ];
 
