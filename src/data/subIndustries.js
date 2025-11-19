@@ -1,4 +1,4 @@
-const industries = [
+const subIndustries = [
   {
     imgFirst: true,
     bgColor: "secondGray",
@@ -66,4 +66,4 @@ const industries = [
   },
 ];
 
-export default industries;
+export default subIndustries;
