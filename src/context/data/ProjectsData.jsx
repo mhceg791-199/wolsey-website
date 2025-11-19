@@ -829,6 +829,22 @@ const ProjectsData = [
     description:"",
     awards:[]
   },
+  {
+    name: "Porsche Centre Calgary",
+    slug: slugify("Porsche Centre Calgary"),
+    imgs: [
+      "/projectss/Porsche-Centre-Calgary/Porsche-Centre-Calgary.webp",
+    ],
+    industry: "Commercial",
+    status: "Completed",
+    description:"The project consists of a new two-storey dealership with an approximate 32,000 ft² footprint and an 11,000 ft² second floor. The superstructure uses conventional steel framing, with the second floor framed using steel beams, metal deck, and concrete topping. Shop walls are steel-framed with pre-finished metal panels, the two-storey portion uses non-load-bearing metal studs with metal panels, and the showroom features curtain wall glazing as the primary exterior enclosure. Foundations are anticipated to consist of grade beams with a concrete slab on grade. Completed in 2017 with steel design and a concrete foundation.",
+    awards:[
+      "Structural engineering and drafting for the dealership’s foundation and superstructure.",
+      "Concise structural specifications incorporated into the drawings.",
+      "Sealed structural drawings for foundation and building permit submission",
+      "Structural engineering services during the tender period."
+    ]
+  },
 ];
 
 export default ProjectsData;
