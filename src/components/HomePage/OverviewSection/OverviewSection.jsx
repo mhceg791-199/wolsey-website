@@ -1,5 +1,5 @@
 
-import SliderOverView from "./sliderOverView";
+import SliderOverView from "./SliderOverView";
 import WScrollShape from "../WScrollShape/WScrollShape";
 import { useNavigate } from "react-router-dom";
 
