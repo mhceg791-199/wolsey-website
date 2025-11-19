@@ -1,61 +1,108 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import projectsData from "../../context/data/ProjectsData";
 import SliderOfImgsProject from "../../components/ProjectDetails/sliderOfImgsProject/sliderOfImgsProject";
 
+
 function ProjectsDetailsPage() {
   const { slug } = useParams();
 
-  const project = projectsData.filter((p) => p.slug == slug)[0];
-  const {
-    description,
-    year,
-    location,
-    status,
-    client,
-    subIndustry,
-    industry,
-    imgs,
-    name,
-  } = project;
+  const project = projectsData.find((p) => p.slug === slug);
+
+  if (!project) {
+    return <div className="py-40 text-center text-2xl">Project not found.</div>;
+  }
+
+  const { description, year, location, status, client, industry, imgs, name } =
+    project;
+
+  const DetailBlock = ({ label, value }) => (
+    <div className="border-b border-gray-200 py-3">
+      <p className="paragraph font-semibold  uppercase">
+        {label}
+      </p>
+      <p className="text-base font-medium">{value}</p>
+    </div>
+  );
+
   return (
-    <>
-      <div className="grid grid-cols-2 ">
-        <div className="lg:col-span-1  flex justify-center flex-col col-span-3 mt-20 p-10">
-          <h1 className="text-mainBrown font-bold custom-text-xl">{name}</h1>
-          <p className=" custom-text-xl font-berlin"> Structural Engineer </p>
-          <div className="p-14 ps-0">
-            <p className="my-1">
-              <span className="font-bold font-berlin:">MAIN SECTOR:</span>{" "}
-              {industry}
-            </p>
-            {/* <p className="my-1">
-              <span className="font-bold font-berlin:">CLIENT:</span> {client}
-            </p> */}
-            {/* <p className="my-1">
-              <span className="font-bold font-berlin:">LOCATION:</span>{" "}
-              {location}
-            </p> */}
-            <p className="my-1">
-              <span className="font-bold font-berlin:">STATUS:</span> {status}
-            </p>
-            {/* <p className="my-1">
-              <span className="font-bold font-berlin:">YEAR:</span> {year}
-            </p> */}
+    <div className="min-h-screen bg-white">
+      <div className="md:pt-28 pb-12 bg-gray-50 border-b border-gray-100">
+        <div className="relative h-[40vh] w-full">
+          <img
+            src={imgs[0]}
+            alt={name}
+            className="w-full h-full object-cover"
+          />
+
+          <div className="absolute inset-0 bg-black/50"></div>
+
+          <div className="absolute inset-0 flex flex-col justify-center px-10 md:px-20">
+            <h1 className="text-3xl md:text-6xl font-bold text-mainGold drop-shadow-lg">
+              {name}
+            </h1>
+            <p className="text-mainGray text-xl mt-4">{industry}</p>
           </div>
-          {/* <p className="mb-3">[DESCRIPTION]</p> */}
-          {/* {description.map((d, index) => (
-            <p className="my-3 text-sm" key={index}>
-              {d}
-            </p>
-          ))} */}
-          <p></p>
         </div>
-        <div className="lg:col-span-1 col-span-3 pt-24 contain-content md:pe-10">
-          <SliderOfImgsProject imgs={imgs} />
+
+        {/* <div className="max-w-7xl mx-auto px-6 lg:px-8">
+     <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tight text-neutral-900">
+      {name}
+     </h1>
+     <p className="text-xl text-mainBrown mt-2">
+      Structural Engineering Project
+     </p>
+    </div> */}
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8 lg:py-8">
+        <div className="lg:grid lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-3 order-2 lg:order-1 lg:border-r lg:pr-10">
+            <h3 className="text-xl font-bold mb-4 text-mainDark border-l-4 border-mainBrown pl-3">
+              Project Details
+            </h3>
+            <div className="space-y-1">
+              <DetailBlock label="Sector" value={industry} />
+              {/* <DetailBlock label="Client" value={client} /> */}
+              {/* <DetailBlock label="Location" value={location} /> */}
+              <DetailBlock label="Status" value={status} />
+              {/* <DetailBlock label="Year" value={year} /> */}
+            </div>
+          </div>
+
+          <div className="lg:col-span-9 order-1 lg:order-2 space-y-10 lg:pl-10">
+            {/* (Description) */}
+            <div>
+              <h3 className="text-2xl text-mainDark font-bold mb-6">
+                Overview
+              </h3>
+              <p className="text-xl text-mainBrown mt-2">
+                Structural Engineering Project
+              </p>
+              {/* {description &&
+                Array.isArray(description) &&
+                description.map((d, index) => (
+                  <p
+                    className="my-4 text-lg leading-relaxed text-neutral-700"
+                    key={index}
+                  >
+                    {d}
+                  </p>
+                ))} */}
+            </div>
+
+            {/* (Slider) */}
+            {imgs && imgs.length > 0 && (
+              <div className="md:pt-4">
+                <h3 className="text-2xl font-bold text-mainDark mb-6">
+                  Gallery
+                </h3>
+                <SliderOfImgsProject imgs={imgs} />
+              </div>
+            )}
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

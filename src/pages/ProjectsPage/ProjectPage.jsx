@@ -1,60 +1,65 @@
-import React, { useContext, useEffect } from "react";
-import { projectContext } from "../../context/ProjectsContext";
-import { Filteration } from "../../components/ProjectsPage/Filteration/Filtertation";
+import React, { useState, useEffect } from "react";
+import projectsData from "../../context/data/projectsData";
 import { ProjectCard } from "../../components/ProjectsPage/ProjectCard/ProjectCard";
-import ButtonToUp from "../../components/ProjectsPage/ButtonToUp/ButtonToUp.jsx";
+import SectionHeader from "../../components/shared/SectionHeader/SectionHeader";
 
-function ProjectPage() {
-  const {
-    projects: originalProjects,
-    projectFilter,
-    filteredProjects,
-    term,
-    setTerm,
-  } = useContext(projectContext);
+export default function ProjectPage() {
+  const industries = ["All", ...new Set(projectsData.map((p) => p.industry))];
 
+  const [activeIndustry, setActiveIndustry] = useState("All");
+  const [filteredProjects, setFilteredProjects] = useState(projectsData);
+
+  // Filter logic
   useEffect(() => {
-    setTerm({
-      name: { text: "" },
-      industry: { text: [] },
-      status: { text: "" },
-    });
-  }, []);
-  useEffect(() => {
-    projectFilter(term);
-  }, [term, originalProjects]);
+    if (activeIndustry === "All") {
+      setFilteredProjects(projectsData);
+    } else {
+      setFilteredProjects(
+        projectsData.filter((p) => p.industry === activeIndustry)
+      );
+    }
+  }, [activeIndustry]);
+
   return (
-    <>
-      <div className="md:mt-20 mt-8 lg:px-20 px-8">
-        <h1 className="text-mainBrown custom-text-xxl font-berlin text-center">
-          Projects
-        </h1>
-        <hr />
-        <Filteration />
+    <div className="mt-[5.5rem] md:mt-[8rem] lg:px-20 px-8">
+      <h1 className="text-mainDark heading font-bold text-center my-3">
+        <SectionHeader firstWord="Our Projects" />
+      </h1>
 
-        <hr />
-        <div className="flex justify-center">
-          <div className="space-x-8"></div>
-        </div>
-        <div className="grid gap-5 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-5">
-          {filteredProjects.map((project, index) => {
-            return (
-              <React.Fragment key={index}>
-                <div className="col-span-1">
-                  <ProjectCard project={project} />
-                </div>
-              </React.Fragment>
-            );
-          })}
-        </div>
-        <ButtonToUp></ButtonToUp>
+      <hr className="my-3" />
 
-        {/* <div className="my-5 m-auto">
-          <Pagination />
-        </div> */}
+      {/* Filter Buttons */}
+      <div className="flex flex-wrap justify-center gap-4 mb-8">
+        {industries.map((ind) => (
+          <button
+            key={ind}
+            onClick={() => setActiveIndustry(ind)}
+            className={`px-3 py-2 rounded-full border transition-all duration-300 capitalize
+              ${
+                activeIndustry === ind
+                  ? "bg-mainDark text-white border-mainDark"
+                  : "border-mainDark/40 hover:bg-mainDark/10"
+              }
+            `}
+          >
+            {ind}
+          </button>
+        ))}
       </div>
-    </>
+
+      <hr className="my-3" />
+
+      {/* Projects Grid */}
+      <div className="grid md:grid-cols-3 gap-8 my-5">
+        {filteredProjects.map((project, index) => {
+          return (
+            <React.Fragment key={index}>
+              <ProjectCard project={project} />
+            </React.Fragment>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 
-export default ProjectPage;
