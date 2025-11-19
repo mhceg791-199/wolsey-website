@@ -723,4 +723,4 @@ const ProjectsData = [
   },
 ];
 
-export default projectsData;
+export default ProjectsData;
