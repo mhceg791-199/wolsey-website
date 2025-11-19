@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <polygon fill="white" points="
+      50,50 
+      200,550 
+      350,150 
+      450,450 
+      600,50 
+      750,550 
+      650,550 
+      500,150 
+      400,450 
+      300,150 
+      150,550 
+    "></polygon>
+</svg>

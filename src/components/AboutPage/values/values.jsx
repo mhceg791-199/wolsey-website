@@ -1,76 +1,42 @@
-import React from "react";
-// import TextWithImg from "../../shared/TextWithImg/TextWithImg";
-import aboutImg from '../../../assets/about/about.webp';
+import values from "../../../data/values";
+import SectionHeader from "../../shared/SectionHeader/SectionHeader";
 
-function values() {
-  const values = [
-    {
-      title: "Engineering Excellence",
-      description:
-        "Mastering innovative, precise, and high-performance solutions. ",
-    },
-    {
-      title: "Client-Centric Focus",
-      description:
-        "Forging trusted partnerships through bespoke, results-driven outcomes. ",
-    },
-    {
-      title: "Integrity & Professionalism",
-      description:
-        "Exemplifying ethical standards and transparency. ",
-    },
-    {
-      title: "Sustainability",
-      description:
-        "Advancing environmental stewardship for generational resilience. ",
-    },
-    {
-      title: "Multidisciplinary Expertise ",
-      description: "Delivering versatile, industry-defining solutions. ",
-    },
-    {
-      title: "Commitment to Quality ",
-      description:
-        "Guaranteeing durability, efficiency, and architectural refinement. ",
-    },
-    {
-      title: "Visionary Innovation ",
-      description:
-        "Leading next-generation engineering through breakthrough technologies. ",
-    },
-  ];
+export default function OurValues() {
   return (
-    <>
-      <div
-        style={{
-          backgroundImage: `url(${aboutImg})`,
-          backgroundPosition: "right center",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
+    <section className="relative text-white py-8 md:py-20 px-6 overflow-hidden  md:h-[100vh] flex items-center justify-center">
+      <img
+        src="/about/vision.webp"
+        alt="background"
+        className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
+      />
 
-          backgroundSize: `100% 100%`,
-        }}
-        className="flex flex-col justify-center md:px-11 px-5 py-10"
-      >
-        <div className="md:w-3/4 p-10 px-5  bg-[#f3f1ecd8]">
-          <h1>
-            <span className="text-mainBrown font-berlin  custom-text-xl mb-3">
-              VALUES{" "}
-            </span>{" "}
-          </h1>
-          <div className="text-justify mt-5">
-            {values.map(({ title, description }, index) => (
-              <React.Fragment key={index}>
-                <p className="font-semibold custom-text-lg mb-1">{title}</p>
-                <p className="mb-3">{description}</p>
-              </React.Fragment>
-            ))}
-      
-          </div>
+      <div className="absolute inset-0 bg-black/70"></div>
+
+      <div className="relative z-10 max-w-6xl mx-auto text-center">
+        <div className="mb-4">
+          <SectionHeader firstWord="OUR VALUES" />
+        </div>
+
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {values.map(({ title, text, icon }, index) => (
+            <div
+              key={index}
+              className="group relative p-6 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg transition-all duration-500 hover:scale-[1.05] hover:bg-white/20"
+            >
+              <div className="text-mainGold text-4xl mb-4 flex justify-center group-hover:rotate-12 transition-transform duration-500">
+                {icon}
+              </div>
+              <h3 className="text-2xl text-lightColor font-medium mb-2">
+                {title}
+              </h3>
+              <p className="text-gray-300 paragraph">{text}</p>
+
+              <span className="absolute inset-0 rounded-2xl border-2 border-mainGold opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+            </div>
+          ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }
-
-export default values;
