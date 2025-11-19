@@ -1,5 +1,5 @@
 import ContactUsDetails from "../../components/ContactUsPage/contactUsDetails/ContactUsDetails";
-import Map from "../../components/ContactUsPage/map/map";
+import Map from "../../components/ContactUsPage/Map/Map";
 import HeroSection from "../../components/shared/HeroSection/HeroSection";
 import ContactForm from "./ContactForm";
 
