@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./Layout";
-import NavbarContaxtProvider from "./context/navbarContaxt";
 import HomePage from "./pages/HomePage/HomePage";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -20,7 +19,6 @@ import ScrollToTopButton from "./components/shared/ScrollToTopButton/ScrollToTop
 function App() {
   return (
     <>
-      <NavbarContaxtProvider>
         <ProjectsContextProvider>
           <CareerModelProvider>
             <Layout>
@@ -41,7 +39,6 @@ function App() {
             </Layout>
           </CareerModelProvider>
         </ProjectsContextProvider>
-      </NavbarContaxtProvider>
     </>
   );
 }
