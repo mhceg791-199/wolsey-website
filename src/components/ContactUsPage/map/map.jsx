@@ -1,4 +1,4 @@
-import "./Map.css";
+import "./map.css";
 
 export default function Map() {
   return (
