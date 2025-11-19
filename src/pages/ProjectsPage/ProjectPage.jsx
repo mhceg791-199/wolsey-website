@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
-import projectsData from "../../context/data/projectsData";
+import ProjectsData from "../../context/data/ProjectsData";
 import { ProjectCard } from "../../components/ProjectsPage/ProjectCard/ProjectCard";
 import SectionHeader from "../../components/shared/SectionHeader/SectionHeader";
 
 export default function ProjectPage() {
-  const industries = ["All", ...new Set(projectsData.map((p) => p.industry))];
+  const industries = ["All", ...new Set(ProjectsData.map((p) => p.industry))];
 
   const [activeIndustry, setActiveIndustry] = useState("All");
-  const [filteredProjects, setFilteredProjects] = useState(projectsData);
+  const [filteredProjects, setFilteredProjects] = useState(ProjectsData);
 
   // Filter logic
   useEffect(() => {
     if (activeIndustry === "All") {
-      setFilteredProjects(projectsData);
+      setFilteredProjects(ProjectsData);
     } else {
       setFilteredProjects(
-        projectsData.filter((p) => p.industry === activeIndustry)
+        ProjectsData.filter((p) => p.industry === activeIndustry)
       );
     }
   }, [activeIndustry]);

@@ -1,6 +1,6 @@
 const slugify = (name) => name.toLowerCase().replace(/\s+/g, "-");
 // test for deploy on github
-const projectsData = [
+const ProjectsData = [
   // ==========================================================================
   // ==========================================================================
   {
