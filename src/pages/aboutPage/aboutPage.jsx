@@ -3,7 +3,7 @@ import AboutSection from "../../components/AboutPage/AboutSection/AboutSection";
 import Mission from "../../components/AboutPage/Mission/Mission";
 import Vision from "../../components/AboutPage/Vision/Vision";
 import WolseyInNumbers from "../../components/AboutPage/WolseyWithNumbers/WolseyWithNumbers";
-import TrustedBy from "../../components/shared/TrustedBy/TrustedBy";
+// import TrustedBy from "../../components/shared/TrustedBy/TrustedBy";
 import { useLocation } from "react-router-dom";
 
 function AboutPage() {

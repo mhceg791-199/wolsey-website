@@ -1,6 +1,6 @@
 import React from "react";
-import TextWithImg from "../../shared/TextWithImg/TextWithImg";
-import CustomParagraph from "../../shared/CustomParagraph/CustomParagraph.jsx";
+// import TextWithImg from "../../shared/TextWithImg/TextWithImg";
+// import CustomParagraph from "../../shared/CustomParagraph/CustomParagraph.jsx";
 
 function Mission() {
   const data = {

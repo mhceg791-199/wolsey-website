@@ -1,56 +1,51 @@
-import React from "react";
 import { useInView } from "react-intersection-observer";
-import useCountUp from "../../../hooks/useCountUp";
+import useCountUp from '../../../hooks/useCountUp';
 
-function WolseyInNumbers() {
+
+export default function WolseyWithNumbers({
+  title = "In Numbers",
+  items = [],
+  duration = 3000,
+  bgColor = "bg-mainDark",
+  textColor = "text-white",
+  columns = "sm:grid-cols-3",
+}) {
   const { ref, inView } = useInView({ triggerOnce: true });
 
-   const numberData = [
-    {
-      name: "Years of expertise",
-      number: useCountUp(50, inView, 3000),
-      icon: "+",
-    },
-    {
-      name: "Wolsey’s full team",
-      number: useCountUp(20, inView, 3000),
-      icon: "+",
-    },
-    { name: "Clients", number: useCountUp(150, inView, 3000), icon: "+" },
-    {
-      name: "Recurring clients",
-      number: useCountUp(95, inView, 3000),
-      icon: "%",
-    },
-    { name: "Countries", number: useCountUp(10, inView, 3000), icon: "+" },
-    { name: "Projects", number: useCountUp(3000, inView, 3000), icon: "+" },
-  ]; 
-  
+  const numbers = items.map((item) => useCountUp(item.max, inView, duration));
+
   return (
-    <>
-      <div className="bg-[url('/about/numbers.webp')]  bg-cover bg-center relative py-10 ">
-        <p className="custom-text-xl text-white text-center ">
-          WOLSEY STRUCTURAL ENGINEERING IN NUMBERS
-        </p>
-        <div
-          ref={ref}
-          className="grid lg:grid-cols-6 gap-7 sm:grid-cols-3 grid-cols-2 py-5 "
-        >
-          {numberData.map(({ name, number, icon }, index) => (
-            <React.Fragment key={index}>
-              <div className="col-span-1 text-white flex flex-col justify-center items-center ">
-                <p className="text-white !custom-text-numbers">
-                  {number}
-                  {icon}
-                </p>
-                <p className="text-white">{name}</p>
+    <div className={`${bgColor} ${textColor} md:p-8 p-5`}>
+      {title && (
+        <h3 className="mb-3 font-bold heading md:text-left text-center capitalize">
+          {title}
+        </h3>
+      )}
+
+      <div ref={ref} className={`grid grid-cols-1 ${columns} gap-6`}>
+        {items.map(({ text, max, icon }, index) => {
+          const number = numbers[index];
+          const progress = Math.min((number / max) * 100, 100);
+
+          return (
+            <div key={index} className="flex flex-col items-center py-8">
+              <p className="md:text-lg text-base mb-2 text-gray-300">{text}</p>
+
+              <div className="flex justify-center items-baseline heading font-bold leading-none">
+                <span>{number}</span>
+                <span className="ml-1">{icon}</span>
               </div>
-            </React.Fragment>
-          ))}
-        </div>
+
+              <div className="w-3/4 h-4 bg-gray-800 mt-4 overflow-hidden border border-gray-600">
+                <div
+                  className="h-full bg-gradient-to-r from-mainGold to-yellow-400 transition-all duration-700 ease-linear"
+                  style={{ width: `${progress}%` }}
+                ></div>
+              </div>
+            </div>
+          );
+        })}
       </div>
-    </>
+    </div>
   );
 }
-
-export default WolseyInNumbers;

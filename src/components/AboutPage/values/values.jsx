@@ -1,5 +1,5 @@
 import React from "react";
-import TextWithImg from "../../shared/TextWithImg/TextWithImg";
+// import TextWithImg from "../../shared/TextWithImg/TextWithImg";
 import aboutImg from '../../../assets/about/about.webp';
 
 function values() {

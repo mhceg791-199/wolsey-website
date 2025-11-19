@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--mainDark);
+  font-size: var(--mainFontSize);
+  /* Default font size */
+}
+::selection {
+    background-color: #F3F1EC;
+    color: var(--mainDark);
+}
+@layer base {
+  :root {
+    /* Color Variables */
+    --mainBrown: theme(colors.mainBrown);
+    --mainDark: theme(colors.mainDark);
+    --mainGold: theme(colors.mainGold);
+
+    /* Font Size Variables */
+    --mainFontSize: 16px;
+    /* Default font size for base screens */
+    --numbersFontSize: 55px;
+    --xxlFontSize: 52px;
+    --xlFontSize: 32px;
+    --lgFontSize: 24px;
+    --xsFontSize: 12px;
+  }
+
+  @layer components {
+    .heading {
+      @apply text-lg sm:text-2xl md:text-3xl;
+    }
+
+    .paragraph {
+      @apply leading-relaxed text-sm sm:text-base md:text-lg
+    }
+
+    .btn-boder-white {
+      @apply px-6 py-3 border border-mainGray hover:bg-mainBrown hover:text-mainGray transition duration-300
+    }
+
+    /* .btn-boder-brown {
+      @apply px-6 py-3 border-2 border-mainBrown text-mainBrown hover:bg-mainBrown hover:text-white hover:border-mainGray transition duration-300
+    } */
+    .btn-boder-brown {
+      @apply px-6 py-3 border-2 border-mainBrown text-mainBrown hover:bg-mainBrown hover:text-white hover:border-mainGray transition duration-300 relative overflow-hidden;
+      /* أضف: position: relative و overflow: hidden */
+    }
+
+    .btn-boder-brown .arrow {
+      @apply inline-block ml-0 transition-all duration-300 ease-in-out opacity-0;
+      transform: translateX(10px);
+    }
+
+    .btn-boder-brown:hover .arrow {
+      @apply opacity-100;
+      transform: translateX(5px);
+    }
+  }
+
+  @font-face {
+    font-family: "Acumin Variable Concept";
+    src: url("/fonts/acumin.ttf") format("ttf"),
+      url("/fonts/acumin.ttf") format("ttf");
+    font-weight: 100 900;
+    font-style: normal;
+  }
+
+  /* Responsive Font Sizes */
+  .custom-text-numbers {
+    font-size: var(--numbersFontSize);
+  }
+
+  .custom-text-xxl {
+    font-size: var(--xxlFontSize);
+  }
+
+  .custom-text-xl {
+    font-size: var(--xlFontSize);
+  }
+
+  .custom-text-lg {
+    font-size: var(--lgFontSize);
+  }
+
+  .custom-text-xs {
+    font-size: var(--xsFontSize);
+  }
+
+  /* Screen-Specific Adjustments */
+  @media (max-width: 540px) {
+    :root {
+      --mainFontSize: 16px;
+      --numbersFontSize: 40px;
+      --xxlFontSize: 30px;
+      --xlFontSize: 24px;
+      --lgFontSize: 18px;
+      --xsFontSize: 10px;
+    }
+  }
+
+  @screen md {
+    :root {
+      --mainFontSize: 17px;
+      --numbersFontSize: 50px;
+      --xxlFontSize: 43px;
+      --xlFontSize: 28px;
+      --lgFontSize: 20px;
+    }
+  }
+
+  @screen lg {
+    :root {
+      --mainFontSize: 18px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    :root {
+      --mainFontSize: 18px;
+      --numbersFontSize: 55px;
+      --xxlFontSize: 52px;
+      --xlFontSize: 32px;
+      --lgFontSize: 24px;
+      --mainFontSize: 17px;
+      --numbersFontSize: 50px;
+      --xxlFontSize: 43px;
+      --xlFontSize: 28px;
+      --lgFontSize: 20px;
+    }
+  }
+}
+.layer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.1));
+}
+
+.map-services {
+  background-image: url("portfolio/map.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

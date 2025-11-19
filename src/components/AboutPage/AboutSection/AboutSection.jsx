@@ -1,6 +1,6 @@
 import React from "react";
-import TextWithBgImg from "../../shared/TextWithBg-img/TextWithBgImg";
-import CustomParagraph from "../../shared/CustomParagraph/CustomParagraph";
+// import TextWithBgImg from "../../shared/TextWithBg-img/TextWithBgImg";
+// import CustomParagraph from "../../shared/CustomParagraph/CustomParagraph";
 import aboutImg from '../../../assets/about/about.webp';
 
 function AboutSection() {

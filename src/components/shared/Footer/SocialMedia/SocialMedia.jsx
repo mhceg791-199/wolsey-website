@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 function SocialMedia() {
@@ -10,7 +9,7 @@ function SocialMedia() {
             target="_blank"
             to="https://www.instagram.com/wolsey_structuralengineering/"
           >
-            <i className="fa-brands fa-instagram text-mainBrown rounded-full p-2 custom-text-lg border-mainBrown border-[3px]"></i>
+            <i className="fa-brands fa-instagram text-white rounded-full p-2 custom-text-lg border-white border-[3px]"></i>
           </Link>
         </div>
         <div className="col-span-1 mx-2  flex justify-center items-center">
@@ -18,16 +17,20 @@ function SocialMedia() {
             target="_blank"
             to="https://www.facebook.com/profile.php?id=61565888981089"
           >
-            <i className="fa-brands fa-facebook text-mainBrown rounded-full p-2 custom-text-lg border-mainBrown border-[3px]"></i>
+            <i className="fa-brands fa-facebook text-white rounded-full p-2 custom-text-lg border-white border-[3px]"></i>
           </Link>
         </div>
-
+        <div className="col-span-1 mx-2  flex justify-center items-center">
+          <Link target="_blank" to="https://x.com/MosaicHoldingCo">
+            <i className="fa-brands fa-x-twitter text-white rounded-full p-2 custom-text-lg border-white border-[3px]"></i>
+          </Link>
+        </div>
         <div className="col-span-1 mx-2  flex justify-center items-center">
           <Link
             target="_blank"
             to="https://www.linkedin.com/company/wolsey-structural-engineering-ltd-/?originalSubdomain=ca"
           >
-            <i className="fa-brands fa-linkedin text-mainBrown rounded-full p-2 custom-text-lg border-mainBrown border-[3px]"></i>
+            <i className="fa-brands fa-linkedin text-white rounded-full p-2 custom-text-lg border-white border-[3px]"></i>
           </Link>
         </div>
       </div>

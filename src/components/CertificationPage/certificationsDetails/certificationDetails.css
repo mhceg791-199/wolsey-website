@@ -1,8 +1,0 @@
-.arrow {
-  opacity: 1;
-}
-@media screen and (max-width: 1650px) {
-  .arrow {
-    opacity: 0;
-  }
-}

@@ -1,5 +1,5 @@
 import React from "react";
-import TextWithImg from "../../shared/TextWithImg/TextWithImg";
+// import TextWithImg from "../../shared/TextWithImg/TextWithImg";
 
 function Vision() {
   const data = {

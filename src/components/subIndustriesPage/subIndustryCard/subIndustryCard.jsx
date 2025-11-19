@@ -1,5 +1,5 @@
 import React from "react";
-import CustomParagraph from "../../shared/CustomParagraph/CustomParagraph";
+// import CustomParagraph from "../../shared/CustomParagraph/CustomParagraph";
 import { Link } from "react-router-dom";
 
 function SubIndustryCard({ data }) {
@@ -16,7 +16,7 @@ function SubIndustryCard({ data }) {
             <div
               className={`md:col-span-4 col-span-1 flex flex-col justify-center md:ps-11 px-10 py-10 bg-${bgColor}`}
             >
-              <CustomParagraph data={data} />{" "}
+              {/* <CustomParagraph data={data} />{" "} */}
               <Link to={link} className="text-mainBrown font-berlin">
                 Photo Gallery
               </Link>{" "}
