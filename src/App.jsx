@@ -57,7 +57,6 @@ export default App;
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 // import ManagementPage from "./pages/Management/ManagementPage";
-// import CertificationPage from "./pages/CertificationPage/CertificationPage";
 // import PortfolioPage from "./pages/PortfolioPage/PortfolioPage";
 // import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
 // import PrivacyPage from "./pages/PrivacyPage/PrivacyPage";
@@ -93,10 +92,7 @@ export default App;
 //                 <Route path="/solutions" element={<SolutionsPage />} />
 //                 <Route path="/subIndustries" element={<SubIndustriesPage />} />
 //                 <Route path="/management" element={<ManagementPage />} />
-//                 <Route
-//                   path="/certifications-and-awards"
-//                   element={<CertificationPage />}
-//                 />
+//                 
 //                 <Route path="/services" element={<ServicesPage />} />
 //                 <Route path="/projects" element={<ProjectPage />} />
 //                 <Route
