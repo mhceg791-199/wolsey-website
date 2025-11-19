@@ -1,8 +1,8 @@
 import "./Map.css";
-function Map() {
+
+export default function Map() {
   return (
-    <>
-      <div className="my-10">
+    <div className="my-10">
         <iframe
           className="border-map"
           title="Google Map"
@@ -13,8 +13,5 @@ function Map() {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-    </>
-  );
+  )
 }
-
-export default Map;
