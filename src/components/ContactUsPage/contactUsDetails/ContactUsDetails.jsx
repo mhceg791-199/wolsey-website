@@ -19,12 +19,12 @@ function ContactMapDetails() {
           <div>
             <h4 className="text-lg font-semibold">Address</h4>
             <a
-              href="https://www.google.com/maps/place/1302+4+St+SW,+Calgary,+AB+T2R+0X8%D8%8C+%D9%83%D9%86%D8%AF%D8%A7%E2%80%AD/@51.04038,-114.071582,18z/data=!4m6!3m5!1s0x5371701da500ff39:0xeae3aa8bbbbe6e56!8m2!3d51.0405048!4d-114.0712558!16s%2Fg%2F11bw42vbb3?hl=ar&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/place/1302+4+St+SW,+Calgary,+AB+T2R+0X8,+Canada"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 text-md hover:text-mainGold transition-colors duration-300"
             >
-              Calgary office #200, 1302 4th Street SW
+              #700-1333 8th St. SW, Calgary AB T2R 1M6
             </a>
           </div>
         </div>
