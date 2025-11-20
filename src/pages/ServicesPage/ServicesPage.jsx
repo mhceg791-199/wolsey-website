@@ -1,27 +1,10 @@
-// import ServicesBrief from "../../components/Services/servicesBrief/servicesBrief";
-// import MainServices from "../../components/Services/mainServices/mainServices";
-// import WolseyInNumbers from "../../components/AboutPage/WolseyWithNumbers/WolseyWithNumbers";
-
-// function ServicesPage() {
-//   return (
-//     <>
-//       <div className="mt-14">
-//         <ServicesBrief />
-//         <MainServices />
-//         <WolseyInNumbers />
-//       </div>
-//     </>
-//   );
-// }
-
-// export default ServicesPage;
 import SubIndustries from "../../components/Services/SubIndustries/SubIndustries";
 import HeroSection from "../../components/shared/HeroSection/HeroSection";
 import DescriptionAbout from "../../components/shared/DescriptionAbout/DescriptionAbout";
 
 function ServicesPage() {
   const paragraphs = [
-    "Wolsey Structural Engineering Ltd. offers reinforced concrete, steel, masonry, aluminum, and timber solutions, providing comprehensive structural design, including model generation in Revit.",
+    "Wolsey Structural Engineering Ltd. delivers full structural design in reinforced concrete, steel, masonry, aluminum, and timber, supported by coordinated 3D BIM models in Revit."
   ];
 
   return (

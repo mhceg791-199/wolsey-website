@@ -7,7 +7,7 @@ import OurValues from "../../components/AboutPage/values/values";
 
 function AboutPage() {
   const paragraphs = [
-    "Founded in 2006, Wolsey Structural Engineering began as a passionate local practice. From day one, we committed to delivering world-class structural designs, built on the belief that engineering is both a science and a story —a delicate balance of strength, design, and imagination. We quickly grew, specializing in robust solutions using reinforced concrete, steel, masonry, aluminum, and timber , completing over 3,000 projects.",
+    "Founded in 2006, Wolsey Structural Engineering began as a passionate local practice. From day one, we committed to delivering world-class structural designs, built on the belief that engineering is both a science and a story —a delicate balance of strength, design, and imagination. We quickly grew, specializing in robust solutions using reinforced concrete, steel, masonry, aluminum, and timber, completing over 3,000 projects.",
   ];
 
   const paragraphs2 = [
