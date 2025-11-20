@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import HeroSection from "../../components/shared/HeroSection/HeroSection";
 import DescriptionAbout from "../../components/shared/DescriptionAbout/DescriptionAbout";
 import MissionAndVisions from "../../components/AboutPage/MissionAndVisions/MissionAndVisions";
@@ -11,7 +11,22 @@ function AboutPage() {
   ];
 
   const paragraphs2 = [
-    "The year 2023 marked a defining chapter. Wolsey became a proud subsidiary of Mosaic Holding Corporation —a major, diverse umbrella whose core mission is bringing powerful pieces together to create something truly big. Being under the Mosaic banner means Wolsey is now part of a powerful ecosystem with sister companies spanning Architecture, Engineering, Maritime, Real Estate, and Energy, granting us a global network and unparalleled resources.",
+    <>
+      The year 2023 marked a defining chapter. Wolsey became a proud subsidiary
+      of{" "}
+      <Link
+        target="_blank"
+        to="https://mosaicholding.com/" 
+        className="font-bold"
+      >
+        Mosaic Holding Corporation
+      </Link>{" "}
+      —a major, diverse umbrella whose core mission is bringing powerful pieces
+      together to create something truly big. Being under the Mosaic banner
+      means Wolsey is now part of a powerful ecosystem with sister companies
+      spanning Architecture, Engineering, Maritime, Real Estate, and Energy,
+      granting us a global network and unparalleled resources.
+    </>,
   ];
 
   const paragraphs3 = [

@@ -40,7 +40,7 @@ export default function HeroHome() {
           <span className="text-mainGold">Wolsey Structural Engineering </span>
           has grown from a passionate local firm into a global leader, now
           proudly a subsidiary of{" "}
-          <span className="font-bold"> Mosaic Holding Corporation</span>. With
+          <span className="font-bold"> <Link target="_blank"  to="https://mosaicholding.com/">Mosaic Holding Corporation</Link></span>. With
           over 3,000 projects completed across more than 10 countries, we turn
           complex structural challenges into lasting, meaningful structures that
           shape skylines and communities.
