@@ -3,7 +3,7 @@
 const NotFoundPage = () => {
     return (
         <div >
-            <img className="h-screen w-full object-contain" src="/notFoundPage/notfound.webp" alt="" />
+            <img className="h-screen w-full object-contain" src="/notFoundPage/notfound.webp" alt="notfound" />
         </div>
     );
 };

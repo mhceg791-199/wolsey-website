@@ -13,7 +13,7 @@ function ProjectCard({ data }) {
               <img
                 className="w-full  object-cover h-full "
                 src={img[0]}
-                alt=""
+                alt="ProjectCard"
               />
             </div>
             <div
@@ -30,7 +30,7 @@ function ProjectCard({ data }) {
               <CustomParagraph data={data} />
             </div>
             <div className=" col-span-2">
-              <img className="w-full h-full object-cover " src={img} alt="" />
+              <img className="w-full h-full object-cover " src={img} alt="Project Card" />
             </div>
           </>
         )}

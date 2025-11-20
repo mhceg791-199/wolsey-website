@@ -52,7 +52,7 @@ export default function HeroHome() {
           transition={{ delay: 0.7, duration: 0.7 }}
         >
           <Link to="/about" className="btn-boder-white text-white w-full">
-            Learn More
+            About Wolsey
           </Link>
         </motion.div>
       </div>

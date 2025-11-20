@@ -17,7 +17,7 @@ function Industries() {
           {industries.map((img, index) => (
             <React.Fragment key={index}>
               <div className="col-span-1 flex items-center justify-center">
-                <img className="w-4/5 m-auto" src={img} alt="" />
+                <img className="w-4/5 m-auto" src={img} alt="Industries" />
               </div>
             </React.Fragment>
           ))}
