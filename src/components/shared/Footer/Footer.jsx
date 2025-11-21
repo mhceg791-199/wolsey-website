@@ -5,7 +5,7 @@ const linksTop = [
   { to: "/about", label: "About" },
   { to: "/services", label: "Services" },
   { to: "/projects", label: "Projects" },
-  { to: "/people", label: "Careers" },
+  { to: "/career", label: "Career" },
 ];
 
 const linksBottom = [
