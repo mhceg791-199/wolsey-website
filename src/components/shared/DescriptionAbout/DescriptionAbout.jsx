@@ -80,7 +80,7 @@ function DescriptionAbout({
         </div>
 
         {paragraphs2 && (
-          <div className={`${maxWidth} m-auto my-1 `}>
+          <div className={`${maxWidth} m-auto `}>
             {paragraphs2.map((text, i) => (
               <Paragraph key={i} p={text} />
             ))}
@@ -88,7 +88,7 @@ function DescriptionAbout({
         )}
 
         {paragraphs3 && (
-          <div className={`${maxWidth} m-auto my-1 `}>
+          <div className={`${maxWidth} m-auto `}>
             {paragraphs3.map((text, i) => (
               <Paragraph key={i} p={text} />
             ))}

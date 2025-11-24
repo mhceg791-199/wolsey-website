@@ -74,7 +74,7 @@ function AboutPage() {
           paragraphs2={paragraphs2}
           paragraphs3={paragraphs3}
           particleColors={["#e0e0d4", "#e0e0d4"]}
-          height="h-[95vh] md:h-[65vh]"
+          height="h-[95vh] md:h-[55vh]"
         />
 
         <MissionAndVisions />
