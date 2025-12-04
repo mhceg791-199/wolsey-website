@@ -24,9 +24,15 @@ const ProjectsData = [
       "/projectss/Latitude 51 Airdrie/2.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2014",
+    description:"The project consists of structural engineering services for Latitude 51, a 12-building, 61-unit wood-framed townhouse development in Airdrie, Alberta. Each two-storey building includes a partial basement and garage at the lowest level. The superstructure is framed with load-bearing wood stud walls and engineered wood floors, while the lowest level consists of a concrete slab-on-grade. The foundation system is assumed to utilize conventional strip and spread footings.",
+    awards:[
+      "Structural engineering and drafting for all townhouse buildings",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering services during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews"
+    ]
   },
   {
     name: "Mount Pleasant 8",
@@ -39,9 +45,15 @@ const ProjectsData = [
       "/projectss/Mount Pleasant 8/5.webp",
     ],
     industry: "Residential - Single Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2016",
+    description:"The project consists of structural engineering services for Mount Pleasant 8, a two-storey, 8-unit wood-framed residential building constructed over a concrete basement. The superstructure above the main floor is framed with load-bearing wood stud walls and wood-framed floor systems. The basement includes a concrete slab-on-grade, and the foundation system is assumed to consist of conventional strip and spread footings to support residential loading and site conditions.",
+    awards:[
+      "Structural engineering and drafting for the full building",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews"
+    ]
   },
   {
     name: "The Mark 101",
@@ -63,9 +75,17 @@ const ProjectsData = [
       "/projectss/William Off Whyte/4.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2016",
+    description:"The project consists of structural engineering services for a development comprising 12 three-storey rowhome-style townhomes and a 148-unit apartment building constructed over a single-storey concrete parkade. The parkade features a main floor two-way concrete slab supported on concrete columns and perimeter concrete walls, with a concrete slab-on-grade at the lowest level. Above the main floor, the apartment superstructure is framed with load-bearing wood stud walls and wood-framed floors. The townhomes also utilize load-bearing wood walls with wood-framed floors, with concrete slab-on-grade foundations supported by conventional strip and spread footings. The project is intended to shadow LEED Gold standards.",
+    awards:[
+      "Structural engineering and drafting for the apartment building and townhomes",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering services during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+      "Provision of C2 schedules upon structure completion",
+      "Preparation of BAR reports as required by the municipality",
+    ]
   },
   // {
   //   name: "Country Hills Toyota Addition",
@@ -88,9 +108,15 @@ const ProjectsData = [
       "/projectss/Bankview 20 (Grow)/4.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2016",
+    description:"The project consists of structural engineering services for Bankview 20, a four-storey wood-framed residential building with 20 units constructed over a single-storey concrete parkade. The main floor is designed as a two-way reinforced concrete slab supported by interior concrete columns and perimeter concrete walls. Above this level, the superstructure consists of load-bearing wood stud walls with wood-framed floor systems. The building incorporates a large sloped exterior roof element with an integrated green roof, requiring structural design to accommodate increased live and dead loads. The parkade level includes a concrete slab-on-grade, and the foundation system is assumed to consist of conventional strip and spread footings.",
+    awards:[
+      "Structural engineering and drafting for the building and parkade",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Structural engineering and drafting for the building and parkade",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews"
+    ]
   },
 
   // {
@@ -157,9 +183,15 @@ const ProjectsData = [
       "/projectss/Centaur Subaru/6.webp",
     ],
     industry: "Commercial",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2017",
+    description:"The project consists of a new two-storey Subaru dealership with an approximate 9,500 ft² footprint, attached to a three-storey precast parking and service structure with an approximate 18,000 ft² footprint. The dealership showroom uses conventional structural steel framing, with the second floor constructed using steel beams, metal deck, and concrete topping. Exterior walls consist of non-loadbearing metal studs with metal panels, while the showroom incorporates curtain wall glazing. The parking and service structure utilizes precast concrete double tees for the second floor and roof, supporting rooftop vehicle storage. Foundations are anticipated to consist of concrete piles and grade beams, with slab-on-grade at the main floor. The project also includes a freestanding steel “display frame” supported on concrete piles. A large retaining wall along the west side of the building is to be provided by others.",
+    awards:[
+      "Structural engineering and drafting for all buildings and the display frame",
+      "Preparation of concise structural specifications",
+      "Sealing of structural drawings for foundation and building permit submission",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews"
+    ]
   },
   {
     name: "Shawnee Park Phase 4 Entry",
@@ -228,9 +260,15 @@ const ProjectsData = [
       "/projectss/Mission 19/4.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2017",
+    description:"The project consists of a five-storey, 67-unit wood-framed condominium building constructed over a two-storey concrete parkade. The main floor and first level of the parkade are designed as two-way reinforced concrete slabs supported on concrete columns with drop panels and perimeter concrete walls. Above the main floor, the superstructure is framed with load-bearing wood stud walls and wood-framed floors. The lowest parkade level contains a concrete slab-on-grade, and the foundation system is assumed to be conventional strip and spread footings.",
+    awards:[
+      "Structural engineering and drafting for the full building and parkade",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering services during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews"
+    ]
   },
   {
     name: "Tidal Beacon",
@@ -295,9 +333,17 @@ const ProjectsData = [
       "/projectss/9th Ave Parkade Facade/8.webp",
     ],
     industry: "Commercial",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2020",
+    description:"The project consists of a 52,000 ft² interior design build-out located beneath an existing concrete parkade structure. Although the final design has not yet been established, the anticipated structural scope is based on previous similar interior build-out projects with comparable construction budgets. Structural work is expected to address modifications, new framing, support elements, and coordination with architectural and mechanical requirements.",
+    awards:[
+      "Structural engineering and drafting of all structural elements for the build-out",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering services during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+      "Provision of C2 schedules upon structure completion",
+      "Preparation of as-built drawings",
+    ]
   },
   {
     name: "Glenbow Cladding",
@@ -333,9 +379,15 @@ const ProjectsData = [
       "/projectss/Esquire/14.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2019",
+    description:"The project consists of two four-storey wood-framed multifamily residential buildings with a total of 185 units, constructed over a two-storey concrete parkade in northwest Calgary. The main floor and P1 levels are designed as two-way reinforced concrete slabs supported by concrete columns with drop panels and perimeter concrete walls. Above the main floor, the superstructure uses load-bearing wood stud walls and wood-framed floors. The lowest parkade level includes a concrete slab-on-grade, and the foundation system is assumed to consist of conventional strip and spread footings.",
+    awards:[
+      "Structural engineering and drafting of the residential buildings and parkade",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for foundation and building permit submission",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+    ]
   },
   {
     name: "Ferrari Maserati Dealership",
@@ -473,9 +525,15 @@ const ProjectsData = [
       "/projectss/Banff Husky/7.webp",
     ],
     industry: "Commercial",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2018",
+    description:"The project consists of a new development comprising a single-storey convenience store (approx. 4,000 ft²) and a gas canopy (approx. 2,500 ft²). The convenience store is framed with load-bearing wood stud walls and conventional wood roof trusses, with a mechanical mezzanine framed into the roof using TJI joists.  The gas canopy structure is framed using steel columns and beams. Foundations are assumed to be conventional strip and spread footings, with a slab-on-grade main floor.",
+    awards:[
+      "Structural engineering for the convenience store and gas canopy",
+      "Preparation of concise structural specifications",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering services during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+    ]
   },
   {
     name: "BMO Centre - Fireplace",
@@ -559,9 +617,15 @@ const ProjectsData = [
 
     ],
     industry: "Commercial",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2021",
+    description:"The project consists of a 2,200 ft² single-storey addition to an existing Honda dealership. The addition is designed with conventional steel framing, while the exterior perimeter walls incorporate curtainwall systems and insulated metal panels. Foundations are anticipated to consist of concrete grade beams with a slab-on-grade floor system.",
+    awards:[
+      "Structural engineering and drafting of the addition’s foundation and superstructure",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for foundation and building permit submission",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+    ]
   },
   {
     name: "Einstein",
@@ -623,9 +687,17 @@ const ProjectsData = [
       "/projectss/7711/2.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2018",
+    description:"The project consists of five six-storey multifamily buildings constructed over a two-level concrete parkade in southwest Calgary. The main floor of each building is designed as a reinforced concrete transfer slab supported by concrete columns and perimeter concrete walls. The superstructures incorporate cast-in-place concrete floor plates, supported by concrete columns and concrete elevator and stair cores. Building 3 includes one storey of commercial space at the main floor, while Building 4 includes a two-storey commercial space with no second-floor slab. Non-loadbearing and perimeter exterior walls are designed as wood-framed infill with slip tracks to accommodate structural movement. The lowest parkade level includes a concrete slab-on-grade, supported by conventional strip and spread footings. The entire project is to be constructed in a single phase, and project drawings are to be produced using Revit.",
+    awards:[
+      "Structural engineering and drafting for all buildings and the two-level parkade",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for building permit submission",
+      "Structural engineering services during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+      "Provision of C2 schedules upon structural completion",
+      "Preparation of BAR Reports for each building as required by New Home Warranty",
+    ]
   },
   {
     name: "Arcola at Spring Willow",
@@ -640,9 +712,15 @@ const ProjectsData = [
       "/projectss/Arcola at Spring Willow/7.webp",
     ],
     industry: "Residential - Multi Family",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2020",
+    description:"The project consists of 87 three-storey wood-framed townhomes distributed across 26 separate buildings in northeast Calgary. The superstructures are designed with conventionally framed wood floors, load-bearing wood stud walls, and prefabricated wood truss roofs. Foundations are anticipated to consist of concrete frost walls with strip and spread footings, and the basement slabs are to be constructed as concrete slab-on-grade systems.",
+    awards:[
+      "Structural engineering and drafting for all townhouse buildings",
+      "Preparation of concise structural specifications for inclusion on drawings",
+      "Sealing of structural drawings for foundation and building permit submission",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+    ]
   },
   {
     name: "Calgary Zoo - Bugtopia",
@@ -742,9 +820,15 @@ const ProjectsData = [
       "/projectss/Cochrane GM/10.webp",
     ],
     industry: "Commercial",
-    status: "Completed",
-    description:"",
-    awards:[]
+    status: "Completed - 2017",
+    description:"The project consists of a new two-storey GMC dealership with an approximate 30,200 ft² footprint, a 7,266 ft² second floor, and a 24,607 ft² lower level. The superstructure uses conventional structural steel framing, with the second floor designed using steel beams with metal deck and concrete topping. The main floor slab over the lower level is a two-way reinforced concrete slab supported on concrete columns and perimeter concrete walls. Shop walls consist of steel framing with pre-finished metal panels, while the showroom utilizes curtain wall systems as its primary exterior enclosure. Foundations are anticipated to consist of concrete grade beams with slab-on-grade construction at the main level.",
+    awards:[
+      "Structural engineering and drafting for the dealership foundation and superstructure",
+      "Structural engineering and drafting for the dealership foundation and superstructure",
+      "Sealing of structural drawings for foundation and building permit submission",
+      "Structural engineering support during the tender period",
+      "Construction-phase services, including shop drawing review and field reviews",
+    ]
   },
   {
     name: "Comfort Inn",
