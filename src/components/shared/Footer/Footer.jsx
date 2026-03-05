@@ -24,7 +24,7 @@ function Footer() {
           <Link to="/" className="block">
             <img
               className="object-contain w-[75%] md:w-full m-auto"
-              src="/images/logo2.webp"
+              src="/images/Wolsey-Light.webp"
               loading="lazy"
               alt="logo"
             />

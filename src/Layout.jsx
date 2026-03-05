@@ -34,7 +34,7 @@ function Layout({ children }) {
         <Link to="/" className="w-full">
           <img
             className="w-1/2 md:w-[24%] p-2 transition-all duration-300"
-            src={navbarWhite ? "/images/logo.webp" : "/images/logo2.webp"}
+            src={navbarWhite ? "/images/Wolsey-black.webp" : "/images/Wolsey-Light.webp"}
             alt="WOLSEY STRUCTURAL ENGINEERING"
           />
         </Link>
