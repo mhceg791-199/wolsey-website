@@ -1,4 +1,4 @@
-import "./Map.css";
+import "./map.css";
 
 function Map() {
   return (
