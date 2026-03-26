@@ -62,12 +62,12 @@ export default function ContactForm() {
           onSubmit={handleSubmit}
           className="w-full bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 text-white"
         >
-          <h2 className="heading mb-6 font-medium text-mainColor">
+          <h2 className="heading mb-6 font-medium text-mainDark">
             <SectionHeader firstWord="Get in Touch" />
           </h2>
 
           <div className="mb-6">
-            <label className="block text-mainColor text-sm font-bold mb-2 paragraph">
+            <label className="block text-mainDark text-sm font-bold mb-2 paragraph">
               Your Name
             </label>
             <input
@@ -77,12 +77,12 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               placeholder="Your Name"
-              className="w-full px-4 py-3 text-mainColor rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all"
+              className="w-full px-4 py-3 text-mainDark rounded-md bg-transparent border border-mainDark focus:outline-none focus:ring-2 focus:ring-mainDark transition-all"
             />
           </div>
 
           <div className="mb-6">
-            <label className="block text-mainColor text-sm font-bold mb-2 paragraph">
+            <label className="block text-mainDark text-sm font-bold mb-2 paragraph">
               Your Email
             </label>
             <input
@@ -92,12 +92,12 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               placeholder="Your Email"
-              className="w-full px-4 py-3 text-mainColor rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all"
+              className="w-full px-4 py-3 text-mainDark rounded-md bg-transparent border border-mainDark focus:outline-none focus:ring-2 focus:ring-mainDark transition-all"
             />
           </div>
 
           <div className="mb-8">
-            <label className="block text-mainColor text-sm font-bold mb-2 paragraph">
+            <label className="block text-mainDark text-sm font-bold mb-2 paragraph">
               Your Message
             </label>
             <textarea
@@ -107,7 +107,7 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               placeholder="Your Message"
-              className="w-full px-4 py-3 text-mainColor rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all resize-y"
+              className="w-full px-4 py-3 text-mainDark rounded-md bg-transparent border border-mainDark focus:outline-none focus:ring-2 focus:ring-mainDark transition-all resize-y"
             ></textarea>
           </div>
 
@@ -115,7 +115,7 @@ export default function ContactForm() {
             <button
               type="submit"
               disabled={loading}
-              className="btn-boder-dark py-3 disabled:opacity-70 disabled:cursor-not-allowed transition-all"
+              className="btn-boder-brown py-3 disabled:opacity-70 disabled:cursor-not-allowed transition-all"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>
