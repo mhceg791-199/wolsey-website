@@ -2,6 +2,7 @@ import ReadyToJoin from "../../components/CareerPage/ReadyToJoin/ReadyToJoin";
 import DomeGallery from "../../components/CareerPage/DomeGallery/DomeGallery";
 import DescriptionAbout from "../../components/shared/DescriptionAbout/DescriptionAbout";
 import OurValues from "../../components/AboutPage/values/values";
+import ApplicationForm from "../../components/CareerPage/ApplicationForm/ApplicationForm";
 
 function CareerPage() {
   const paragraphs = [
@@ -27,6 +28,7 @@ function CareerPage() {
         />
       <OurValues />
       <ReadyToJoin />
+      <ApplicationForm/>
     </>
   );
 }
