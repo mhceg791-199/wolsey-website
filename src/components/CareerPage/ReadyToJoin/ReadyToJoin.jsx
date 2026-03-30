@@ -1,15 +1,15 @@
-import { useContext } from "react";
-import { careerModalContext } from "../../../context/careerContext";
+// import { useContext } from "react";
+// import { careerModalContext } from "../../../context/careerContext";
 import CareerModal from "../BriefCareer/CareerModel/CareerModel";
 import Paragraph from "../../shared/Paragraph/Paragraph";
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
 import { motion } from "framer-motion";
 
 function ReadyToJoin() {
-  const { setOpen } = useContext(careerModalContext);
-  const openModal = () => {
-    setOpen(true);
-  };
+  // const { setOpen } = useContext(careerModalContext);
+  // const openModal = () => {
+  //   setOpen(true);
+  // };
 
   const scrollToApplication = () => {
     const element = document.getElementById("application-form-section");
