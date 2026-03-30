@@ -103,7 +103,7 @@ export default function ApplicationForm() {
   ];
 
   return (
-    <section className="py-20 bg-gray-50" id="application-form-section">
+    <section className="py-20 bg-gray-50 scroll-mt-16" id="application-form-section">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
