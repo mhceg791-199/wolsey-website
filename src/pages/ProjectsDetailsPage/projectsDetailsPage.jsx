@@ -32,7 +32,7 @@ function ProjectsDetailsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="md:pt-28 pb-12 bg-gray-50 border-b border-gray-100">
+      <div className="md:pt-20 pb-12 bg-gray-50 border-b border-gray-100">
         <div className="relative h-[40vh] w-full">
           <img
             src={imgs[0]}

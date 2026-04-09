@@ -20,14 +20,18 @@ export default function HeroHome() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl md:text-6xl font-bold text-mainDark mb-4 leading-tight"
+          className="text-4xl md:text-6xl font-bold text-mainDark mb-5 leading-tight"
         >
           Innovative Project <span className="text-mainGold">Solutions.</span>
-          <br />
-          <span className=" text-xl md:text-3xl">
-            Built on precision. Driven by purpose.
-          </span>
         </motion.h1>
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className=" text-xl md:text-3xl font-bold text-mainDark mb-4 leading-tight"
+        >
+          Built on precision. Driven by purpose.
+        </motion.h2>
 
         {/* Short Paragraph */}
         <motion.p
@@ -40,10 +44,15 @@ export default function HeroHome() {
           <span className="text-mainGold">Wolsey Structural Engineering </span>
           has grown from a passionate local firm into a global leader, now
           proudly a subsidiary of{" "}
-          <span className="font-bold"> <Link target="_blank"  to="https://mosaicholding.com/">Mosaic Holding Corporation</Link></span>. With
-          over 3,000 projects completed across more than 10 countries, we turn
-          complex structural challenges into lasting, meaningful structures that
-          shape skylines and communities.
+          <span className="font-bold">
+            {" "}
+            <Link target="_blank" to="https://mosaicholding.com/">
+              Mosaic Holding Corporation
+            </Link>
+          </span>
+          . With over 3,000 projects completed across more than 10 countries, we
+          turn complex structural challenges into lasting, meaningful structures
+          that shape skylines and communities.
         </motion.p>
 
         <motion.div
